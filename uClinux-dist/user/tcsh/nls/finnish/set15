@@ -1,0 +1,7 @@
+$ $Id: set15,v 1.2 2005/07/25 06:42:17 magicyang Exp $
+$ sh.func.c
+$set 15 
+1 %s: %s: rajoitusta ei voida %s %s\n
+2 poistaa
+3 asettaa
+4 ehdottomaksi

@@ -1,0 +1,7 @@
+$ $Id: set15,v 1.2 2005/07/25 06:42:16 magicyang Exp $
+$ sh.func.c
+$set 15 
+1 %s: %s: Can't %s%s limit\n
+2 remove
+3 set
+4 \040hard

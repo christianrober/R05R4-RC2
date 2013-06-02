@@ -1,0 +1,1 @@
+#define CONFIG_ENET_FLASH_PIN 1

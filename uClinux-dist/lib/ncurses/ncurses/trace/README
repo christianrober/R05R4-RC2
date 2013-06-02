@@ -1,0 +1,5 @@
+-- $Id: README,v 1.1.1.1 2005/11/24 09:55:11 ksh Exp $
+
+The files in this directory (trace) support both the terminfo and ncurses
+libraries.  Most of the functions are linked in only when the libraries
+are compiled with TRACE defined.

@@ -1,0 +1,1 @@
+#undef CONFIG_BFIN_IDLE_LED

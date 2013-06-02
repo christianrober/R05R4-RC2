@@ -1,0 +1,1 @@
+#define CONFIG_C_AMCKEN 1

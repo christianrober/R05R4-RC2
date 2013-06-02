@@ -1,0 +1,1 @@
+cmd_drivers/char/built-in.o :=  bfin-uclinux-ld   -r -o drivers/char/built-in.o drivers/char/mem.o drivers/char/random.o drivers/char/tty_io.o drivers/char/n_tty.o drivers/char/tty_ioctl.o drivers/char/pty.o drivers/char/misc.o drivers/char/blackfin_dpmc.o

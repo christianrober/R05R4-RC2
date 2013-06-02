@@ -1,0 +1,1 @@
+#define CONFIG_CPLB_INFO 1

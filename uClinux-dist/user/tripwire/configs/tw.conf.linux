@@ -1,0 +1,29 @@
+# $Id: tw.conf.linux,v 1.2 2005/07/25 06:51:33 magicyang Exp $
+#
+# tripwire.config for linux mahcines
+#   (minimal version)
+
+#	
+#
+# Define a variable for searching /dev
+#
+@@define DEVSEARCH E+pinugsamc
+#
+# All Files
+#
+/ R
+#
+# Except /proc
+#
+=/proc E
+#
+# And /dev
+#
+/dev @@DEVSEARCH
+#
+# just /tmp
+#
+=/tmp
+#
+# End
+#

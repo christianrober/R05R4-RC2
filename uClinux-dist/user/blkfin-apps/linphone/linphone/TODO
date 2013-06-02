@@ -1,0 +1,13 @@
+hot stuff:
+---------
+* finish video support
+* let choose a separate device for rings
+* stun support
+
+
+low priority:
+-------------
+
+* mediastreamer re-design.
+* alsa special devices
+* zeroconf support for advertising services (cool stuff!)

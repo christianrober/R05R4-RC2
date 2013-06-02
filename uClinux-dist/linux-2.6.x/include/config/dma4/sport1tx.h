@@ -1,0 +1,1 @@
+#define CONFIG_DMA4_SPORT1TX 9

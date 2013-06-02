@@ -1,0 +1,1 @@
+#define CONFIG_BAUD_1_STOPBIT 1

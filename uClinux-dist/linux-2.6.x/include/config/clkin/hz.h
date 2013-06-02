@@ -1,0 +1,1 @@
+#define CONFIG_CLKIN_HZ 11059200

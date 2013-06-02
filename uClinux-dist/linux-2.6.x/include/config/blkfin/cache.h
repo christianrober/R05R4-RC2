@@ -1,0 +1,1 @@
+#define CONFIG_BLKFIN_CACHE 1

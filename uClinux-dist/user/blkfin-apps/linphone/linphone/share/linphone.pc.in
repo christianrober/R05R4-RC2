@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: liblinphone
+Description: All in one linphone libs.
+Version: @VERSION@
+Libs: @LINPHONE_LIBS@
+Cflags: @LINPHONE_CFLAGS@

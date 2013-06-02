@@ -1,0 +1,1 @@
+#define CONFIG_BFIN_KERNEL_CLOCK 1

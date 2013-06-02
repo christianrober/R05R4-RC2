@@ -1,0 +1,1 @@
+#define CONFIG_SPORT1_ERROR 7

@@ -1,0 +1,1 @@
+#define CONFIG_TIMER0 11

@@ -1,0 +1,7 @@
+libosip2 (2.2.0-1) unstable; urgency=low
+  * remove useless prototypes.
+  * fix memory access in parser.
+  * API slightly broken to enable support for binary data.
+  * improvements of the sip message test suite.
+
+ -- Aymeric MOIZARD <jack@atosc.org>  Mon, 7 Sept 2004 13:04:32 +0100

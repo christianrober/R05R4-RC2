@@ -1,0 +1,547 @@
+--- msh.c	2005-12-21 14:46:40.000000000 +0800
++++ msh_function.c	2005-12-21 14:46:10.000000000 +0800
+@@ -54,10 +54,19 @@
+ 
+ 
+ /*#define MSHDEBUG 1*/
+-
++#define MSHDEBUG 1
+ #ifdef MSHDEBUG
++
+ int mshdbg = 0;
+ 
++#ifdef KSDBG
++	#define WHERE fprintf(stderr,"in %s\n",__FUNCTION__) 
++	#define DP(x) fprintf(stderr,"KSDBG:%s\n",x)
++#else
++	#define WHERE
++	#define DP(x)
++#endif 
++
+ #define DBGPRINTF(x)	if(mshdbg>0)printf x
+ #define DBGPRINTF0(x)	if(mshdbg>0)printf x
+ #define DBGPRINTF1(x)	if(mshdbg>1)printf x
+@@ -161,8 +170,13 @@
+ /* Added to support "." file expansion */
+ #define	TDOT	17
+ 
++#define TFUNC  18
++
++#define TRETURN 19
++
+ /* Strings for names to make debug easier */
+-char *T_CMD_NAMES[] = {
++#ifdef MSHDEBUG
++static char *T_CMD_NAMES[] = {
+ 	"PLACEHOLDER",
+ 	"TCOM",
+ 	"TPAREN",
+@@ -182,7 +196,7 @@
+ 	"TASYNC",
+ 	"TDOT",
+ };
+-
++#endif
+ 
+ /*
+  * actions determining the environment of a process
+@@ -282,6 +296,28 @@
+ static char *elinep;
+ 
+ 
++static int func_finished;
++struct func{
++	char* name;
++	int begin_addr; /*pos in buffer of function */
++	int end_addr;
++};
++#define MAX_FUNCS 100
++
++static struct func funcs[MAX_FUNCS];
++
++/* the max DEPTH of function call */
++#define MAX_DEPTH 100
++static struct _frame_s{
++	int argc;
++	char **argv;
++	int saved_return_addr;
++}frame[MAX_DEPTH];
++
++static void register_func(int begin,int end);
++static struct func * find_func(char* name);
++static  void exec_func(struct func* f);
++
+ /*
+  * other functions
+  */
+@@ -373,6 +409,8 @@
+ #define	IN		272
+ /* Added for "." file expansion */
+ #define	DOT		273
++#define FUNC		274
++#define RETURN		275
+ 
+ #define	YYERRCODE 300
+ 
+@@ -513,7 +551,7 @@
+ static int readc(void);
+ static void unget(int c);
+ static void ioecho(int c);
+-static void prs(char *s);
++static void prs(const char *s);
+ static void prn(unsigned u);
+ static void closef(int i);
+ static void closeall(void);
+@@ -621,7 +659,7 @@
+ 	struct here *h_next;
+ };
+ 
+-static char *signame[] = {
++static const char * const signame[] = {
+ 	"Signal 0",
+ 	"Hangup",
+ 	(char *) NULL,				/* interrupt */
+@@ -643,10 +681,10 @@
+ #define	NSIGNAL (sizeof(signame)/sizeof(signame[0]))
+ 
+ struct res {
+-	char *r_name;
++	const char *r_name;
+ 	int r_val;
+ };
+-static struct res restab[] = {
++static const struct res restab[] = {
+ 	{"for", FOR},
+ 	{"case", CASE},
+ 	{"esac", ESAC},
+@@ -698,7 +736,7 @@
+ 	{0, 0}
+ };
+ 
+-struct op *scantree(struct op *);
++static struct op *scantree(struct op *);
+ static struct op *dowholefile(int, int);
+ 
+ /* Globals */
+@@ -708,7 +746,7 @@
+ static int dolc;
+ static int exstat;
+ static char gflg;
+-static int interactive = 0;		/* Is this an interactive shell */
++static int interactive;			/* Is this an interactive shell */
+ static int execflg;
+ static int multiline;			/* \n changed to ; */
+ static struct op *outtree;		/* result from parser */
+@@ -765,6 +803,7 @@
+ static void *brktop;
+ static void *brkaddr;
+ 
++
+ static struct env e = {
+ 	line,						/* linep:  char ptr */
+ 	iostack,					/* iobase:  struct io ptr */
+@@ -825,7 +864,7 @@
+ 	int cflag;
+ 	char *name, **ap;
+ 	int (*iof) (struct ioarg *);
+-
++	//printf("in %s\n",__FUNCTION__);
+ 	DBGPRINTF(("MSH_MAIN: argc %d, environ 0x%x\n", argc, environ));
+ 
+ 	initarea();
+@@ -837,7 +876,6 @@
+ 	}
+ 	closeall();
+ 	areanum = 1;
+-
+ 	shell = lookup("SHELL");
+ 	if (shell->value == null)
+ 		setval(shell, (char *)DEFAULT_SHELL);
+@@ -858,7 +896,6 @@
+ 			setval(path, "/bin:/usr/bin");
+ 	}
+ 	export(path);
+-
+ 	ifs = lookup("IFS");
+ 	if (ifs->value == null)
+ 		setval(ifs, " \t\n");
+@@ -874,9 +911,9 @@
+ #ifdef CONFIG_FEATURE_SH_FANCY_PROMPT
+ 	if (prompt->value == null)
+ #endif
+-		setval(prompt, "\\u:\\w$ ");
++		setval(prompt, "$ ");
+ 	if (geteuid() == 0) {
+-		setval(prompt, "\\u:\\w> ");
++		setval(prompt, "# ");
+ 		prompt->status &= ~EXPORT;
+ 	}
+ 	cprompt = lookup("PS2");
+@@ -945,7 +982,6 @@
+ 				exit(1);		/* Exit on error */
+ 		}
+ 	}
+-
+ 	setdash();
+ 
+ 	/* This won't be true if PUSHIO has been called, say from newfile() above */
+@@ -989,6 +1025,7 @@
+ 			}
+ 		}
+ 	}
++	//fprintf(stderr,"KSDBG:%s,%s\n",dolv[0],dolv[1]);
+ 	setval(lookup("#"), putn((--dolc < 0) ? (dolc = 0) : dolc));
+ 
+ 	DBGPRINTF(("MSH_MAIN: begin FOR loop, interactive %d, e.iop 0x%x, iostack 0x%x\n", interactive, e.iop, iostack));
+@@ -1001,6 +1038,7 @@
+ 			prs(prompt->value);
+ #endif
+ 		}
++		//printf("command=%s\n")
+ 		onecommand();
+ 		/* Ensure that getenv("PATH") stays current */
+ 		setenv("PATH", path->value, 1);
+@@ -1909,6 +1947,7 @@
+ 	peeksym = 0;
+ }
+ 
++
+ static struct op *simple()
+ {
+ 	REGISTER struct op *t;
+@@ -1920,7 +1959,40 @@
+ 		case '>':
+ 			(void) synio(0);
+ 			break;
+-
++		case FUNC:
++		{
++			int c;
++                        while ((c = my_getc(0)) == ' ' || c == '\t'|| c == '\n')    /* Skip whitespace */
++                                ;
++                        int stop_flag = 1;
++                        int number_brace = 0;
++			int func_begin;
++			func_begin = e.iobase->argp->afpos;
++                        while(stop_flag){
++                                if(c == '{')
++                                        number_brace++;
++                                if(c == '}')
++                                        number_brace--;
++                                if(!number_brace) /*if we reach the brace of most outsite*/
++                                        stop_flag = 0;
++                                c = my_getc(0);
++                        }
++			unget(c);
++			unget(c);
++			int func_end;
++			func_end = e.iobase->argp->afpos;
++			register_func(func_begin,func_end);
++                        peeksym = 0;
++                        t = NULL;
++			return t;
++		}
++		case RETURN:
++		{	
++			func_finished = 1;		
++			peeksym = 0;
++			t = NULL;
++			return t;
++		}
+ 		case WORD:
+ 			if (t == NULL) {
+ 				t = newtp();
+@@ -1929,7 +2001,7 @@
+ 			peeksym = 0;
+ 			word(yylval.cp);
+ 			break;
+-
++		
+ 		default:
+ 			return (t);
+ 		}
+@@ -2051,7 +2123,6 @@
+ 		word(NOWORD);			/* terminate  wdlist */
+ 		t->words = copyw();		/* dup wdlist */
+ 		break;
+-
+ 	}
+ 
+ 	while (synio(0));
+@@ -2244,7 +2315,7 @@
+ static int rlookup(n)
+ REGISTER char *n;
+ {
+-	REGISTER struct res *rp;
++	REGISTER const struct res *rp;
+ 
+ 	DBGPRINTF7(("RLOOKUP: enter, n is %s\n", n));
+ 
+@@ -2465,8 +2536,14 @@
+ 	case ')':
+ 		startl = 1;
+ 		return (c);
++	case '{':
++		
++		if ((c = collect(c, '}')) != '\0')
++        	        return (c);
++		break;
++	case '}':
++		return RETURN;
+ 	}
+-
+ 	unget(c);
+ 
+   pack:
+@@ -2481,7 +2558,7 @@
+ 
+ 	if (any(c, "\"'`$"))
+ 		goto loop;
+-
++	
+ 	*e.linep++ = '\0';
+ 
+ 	if (atstart && (c = rlookup(line)) != 0) {
+@@ -2490,10 +2567,169 @@
+ 	}
+ 
+ 	yylval.cp = strsave(line, areanum);
++	/* To identify a subroutine */
++	if((c = my_getc(0)) && any(c,"(")){
++		if((c = my_getc(0)) && any(c,")"))
++			return (FUNC);
++		else
++			zzerr();
++	}
++	else
++		unget(c);
++	/*read the first char*/
++	/* To identify a function */
++	if(!(strcmp(yylval.cp,"function"))){
++		int ret;
++		/* read the function name after "function" */
++		if((ret = yylex(0)) == WORD)
++			return (FUNC);
++		else
++			zzerr();
++	}
++	struct func * f;
++	if((f = find_func(yylval.cp)) != NULL){
++		exec_func(f);		
++		return RETURN;
++	}
++	if(yylval.cp != NULL && !(strcmp(yylval.cp,"return"))){
++		return RETURN;
++	}
+ 	return (WORD);
+ }
+ 
++static void register_func(int begin,int end){
++	struct func *p ;
++	int i;
++        for(i = 0; i < MAX_FUNCS; i++)
++		if(funcs[i].name == NULL){
++			p=&funcs[i];
++			break;
++		}
++	if( i == MAX_FUNCS){
++		fprintf(stderr,"Too much functions beyond limit\n");
++		leave();
++	}
++	p->name = malloc(strlen(yylval.cp));
++	strcpy(p->name,yylval.cp);
++	//fprintf(stderr,"register function,%d,%d,%s\n",begin,end,p->name);
++	WHERE;
++ /*io stream */
++	p->begin_addr = begin;
++	p->end_addr = end;
++}
++static struct func * find_func(char* name){
++	int i;
++	for(i = 0; i < MAX_FUNCS; i++){
++		if(funcs[i].name == NULL)
++			continue;
++		if(!strcmp(funcs[i].name,name))
++			return &funcs[i];
++	}
++	WHERE;
++	//fprintf(stderr,"not found the function %s\n",name);
++	return NULL;
++	//zzerr();
++}
++/* Begin to execute the function */
++static int cur_frame = 0;
++static  void exec_func(struct func* f){
++	int c;
++	int temp_argc;
++	char** temp_argv;
++
++	/*create a new frame,save the argument and return address to this frame*/
++	frame[cur_frame].argc = dolc;
++	frame[cur_frame].argv = dolv;
++	
++	cur_frame++;
++	/*do some argment parse and set arguments*/
++	temp_argv = (char *)malloc(sizeof(char *));
++	temp_argv[0] = (char *)malloc(strlen(f->name));
++	strcpy(temp_argv[0],f->name);
++	temp_argc = 0;	
++	e.iop->argp->afpos--;
++	e.iop->argp->afbuf->bufp--;
++//	unget(c);
++	while(((c = yylex(0)) != '\n') && (yylval.cp != NULL)){
++		temp_argc++;
++		/*parse $ var if passed argument is a variable*/
++		if(yylval.cp[0] == '$'){
++			struct var *arg = lookup(&yylval.cp[1]);
++			temp_argv = realloc(temp_argv,sizeof(char *));
++			
++	                temp_argv[temp_argc] = (char *)malloc(strlen(arg->value));
++        	        strcpy(temp_argv[temp_argc],arg->value);
++			//fprintf(stderr,"arg->value=%s\n",arg->value);
++		}
++		else{
++			temp_argv = realloc(temp_argv,sizeof(char *));
++			temp_argv[temp_argc] = (char *)malloc(strlen(yylval.cp));
++			strcpy(temp_argv[temp_argc],yylval.cp);
++			//fprintf(stderr,"ARG:%s\n",yylval.cp);
++		}
+ 
++	}
++	/*
++	e.iop->argp->afpos--;
++        e.iop->argp->afbuf->bufp--;
++	*/
++	dolc = temp_argc;
++	dolv = temp_argv;
++	//unget(c);	
++	//while ((c = my_getc(0)) == ' ' || c == '\t')    /* Skip whitespace */
++          //      ;
++	//unget(c);	
++	frame[cur_frame].saved_return_addr = e.iop->argp->afpos;
++
++	/*get function begin address and execute this function */
++
++	struct iobuf *bp = e.iop->argp->afbuf;
++	bp->bufp =  &(bp->buf[f->begin_addr]);
++	e.iop->argp->afpos = f->begin_addr;
++
++	
++	/*func_finished=0 means we are in a function and func_finished=1 means we are executing a function*/
++	func_finished = 0;
++
++	//fprintf(stderr,"exec function %s\n",f->name);
++	WHERE;	
++	for(;;){
++		//fprintf(stderr,"afpos=%d,%s\n",e.iop->argp->afpos, yylval.cp);
++		if( e.iop->argp->afpos == f->end_addr)
++			break;
++		onecommand();
++		/* we return from a function ,when func_finished = 1*/
++		if(func_finished)
++			break;
++	}
++	//fprintf(stderr,"%s is finished @%d!\n",f->name,e.iop->argp->afpos);
++	int ret = frame[cur_frame].saved_return_addr;
++	/*workaround code for \n */
++	if(dolc)
++		ret--;	
++
++	/*get return address from current frame and jump to */
++	e.iop->argp->afpos = ret;
++	e.iop->argp->afbuf->bufp =  &(e.iop->argp->afbuf->buf[ret]);
++	/*	
++	fprintf(stderr,"******** after execution ********************\n");
++	fprintf(stderr," %s \n############# %d\n",e.iop->argp->afbuf->bufp,ret);
++	fprintf(stderr,"*******************************\n");
++	*/
++	/*we return to previous frame*/
++	cur_frame--;
++	/*free some space occupied by argument*/
++	while(dolc--)
++		free(dolv[dolc]);
++	free(dolv);
++
++	/*recover argument for last function*/
++	dolv = frame[cur_frame].argv;	
++	dolc = frame[cur_frame].argc;
++	/*If we are not in the outest frame, we should set func_finished to 0 that means we still in some function*/
++	if(cur_frame != 0)
++		func_finished = 0;
++}
+ static int collect(c, c1)
+ REGISTER int c, c1;
+ {
+@@ -2796,6 +3032,10 @@
+ 		if (rv >= 0 && (t1 = t->left))
+ 			rv = execute(t1, pin, pout, 0);
+ 		break;
++	case TFUNC:
++		break;
++	case TRETURN:
++		break;
+ 
+ 	};
+ 
+@@ -4290,7 +4530,7 @@
+ 			}
+ 
+ 			var_name[var_index++] = *src++;
+-			while (isalnum(*src))
++			while (isalnum(*src) || *src=='_')
+ 				var_name[var_index++] = *src++;
+ 			var_name[var_index] = 0;
+ 
+@@ -4638,8 +4878,8 @@
+ 	return (wd);
+ }
+ 
+-int (*func) (char *, char *);
+-int globv;
++static int (*func) (char *, char *);
++static int globv;
+ 
+ static void glob0(a0, a1, a2, a3)
+ char *a0;
+@@ -4840,7 +5080,6 @@
+ 		}
+ 
+ 	}							/* FOR */
+-
+ 	if (e.iop >= iostack) {
+ 		RCPRINTF(("READC: return 0, e.iop 0x%x\n", e.iop));
+ 		return (0);
+@@ -5046,11 +5285,13 @@
+ 	struct iobuf *bp = ap->afbuf;
+ 
+ 	if (ap->afid != AFID_NOBUF) {
++	/*judge the bufp equals end of buf ,means we reach end of buf ,so we create new buf 
++	  or (i = ap->afid != bp->id), we have to create new buf*/
+ 		if ((i = ap->afid != bp->id) || bp->bufp == bp->ebufp) {
+ 
+-			if (i)
++			if (i)/*first arrive the last read pos of file*/
+ 				lseek(ap->afile, ap->afpos, 0);
+-
++			/*read from file to buf*/
+ 			i = safe_read(ap->afile, bp->buf, sizeof(bp->buf));
+ 
+ 			if (i <= 0) {
+@@ -5061,7 +5302,7 @@
+ 			bp->id = ap->afid;
+ 			bp->ebufp = (bp->bufp = bp->buf) + i;
+ 		}
+-
++		/* move the pos to the first pos of new buf */
+ 		ap->afpos++;
+ 		return *bp->bufp++ & 0177;
+ 	}
+@@ -5165,7 +5406,7 @@
+ }
+ 
+ static void prs(s)
+-REGISTER char *s;
++REGISTER const char *s;
+ {
+ 	if (*s)
+ 		write(2, s, strlen(s));

@@ -1,0 +1,1 @@
+#undef CONFIG_BFIN_ALIVE_LED

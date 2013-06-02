@@ -1,0 +1,1 @@
+#undef CONFIG_BAUD_2_STOPBIT

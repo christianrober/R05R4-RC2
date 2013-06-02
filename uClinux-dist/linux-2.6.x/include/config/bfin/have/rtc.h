@@ -1,0 +1,1 @@
+#undef CONFIG_BFIN_HAVE_RTC

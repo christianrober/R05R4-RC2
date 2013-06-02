@@ -1,0 +1,1 @@
+#define CONFIG_SMC91X 1

@@ -1,0 +1,1 @@
+#define CONFIG_BAUD_NO_PARITY 1

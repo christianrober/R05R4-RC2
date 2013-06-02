@@ -1,0 +1,1 @@
+#undef CONFIG_BF533_PFLAGS

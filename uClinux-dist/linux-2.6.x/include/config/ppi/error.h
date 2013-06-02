@@ -1,0 +1,1 @@
+#define CONFIG_PPI_ERROR 7

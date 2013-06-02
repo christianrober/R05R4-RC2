@@ -1,0 +1,1 @@
+#define CONFIG_LARGE_ALLOCS 1

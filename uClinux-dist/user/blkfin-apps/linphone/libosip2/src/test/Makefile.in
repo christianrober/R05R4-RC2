@@ -1,0 +1,918 @@
+# Makefile.in generated automatically by automake 1.4-p6 from Makefile.am
+
+# Copyright (C) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+
+SHELL = @SHELL@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DESTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = ../..
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+host_alias = @host_alias@
+host_triplet = @host@
+AR = @AR@
+AS = @AS@
+CC = @CC@
+CPP = @CPP@
+CXX = @CXX@
+CXXCPP = @CXXCPP@
+DLLTOOL = @DLLTOOL@
+ECHO = @ECHO@
+EGREP = @EGREP@
+EXEEXT = @EXEEXT@
+EXTRA_LIB = @EXTRA_LIB@
+F77 = @F77@
+FSM_LIB = @FSM_LIB@
+GCJ = @GCJ@
+GCJFLAGS = @GCJFLAGS@
+HAVE_LIB = @HAVE_LIB@
+LIB = @LIB@
+LIBOSIP_SO_VERSION = @LIBOSIP_SO_VERSION@
+LIBTOOL = @LIBTOOL@
+LN_S = @LN_S@
+LTLIB = @LTLIB@
+MAKEINFO = @MAKEINFO@
+OBJDUMP = @OBJDUMP@
+OBJEXT = @OBJEXT@
+OSIP_VERSION = @OSIP_VERSION@
+PACKAGE = @PACKAGE@
+PARSER_LIB = @PARSER_LIB@
+PTHREAD_CC = @PTHREAD_CC@
+PTHREAD_CFLAGS = @PTHREAD_CFLAGS@
+PTHREAD_LIBS = @PTHREAD_LIBS@
+RANLIB = @RANLIB@
+RC = @RC@
+SIP_CFLAGS = @SIP_CFLAGS@
+SIP_EXTRA_FLAGS = @SIP_EXTRA_FLAGS@
+SIP_FSM_FLAGS = @SIP_FSM_FLAGS@
+SIP_PARSER_FLAGS = @SIP_PARSER_FLAGS@
+STRIP = @STRIP@
+VERSION = @VERSION@
+
+SUBDIRS = res
+
+EXTRA_DIST = tst tst_sdp tst_rfc3264 CHECK
+
+@COMPILE_TESTS_TRUE@noinst_PROGRAMS = torture_rfc3264 torture_test turl tfrom tto tcontact tvia tcallid tcontentt trecordr troute twwwa
+
+@COMPILE_TESTS_TRUE@INCLUDES = -I$(top_srcdir)/include -I$(top_srcdir)/src/osipparser2
+@COMPILE_TESTS_TRUE@AM_CFLAGS = $(SIP_CFLAGS) $(SIP_PARSER_FLAGS) $(SIP_EXTRA_FLAGS)
+
+@COMPILE_TESTS_TRUE@twwwa_SOURCES = twwwa.c
+@COMPILE_TESTS_TRUE@twwwa_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la
+
+@COMPILE_TESTS_TRUE@tcontentt_SOURCES = tcontentt.c
+@COMPILE_TESTS_TRUE@tcontentt_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@turl_SOURCES = turls.c
+@COMPILE_TESTS_TRUE@turl_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@tfrom_SOURCES = tfrom.c
+@COMPILE_TESTS_TRUE@tfrom_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@tto_SOURCES = tto.c
+@COMPILE_TESTS_TRUE@tto_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@tcontact_SOURCES = tcontact.c
+@COMPILE_TESTS_TRUE@tcontact_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@trecordr_SOURCES = trecordr.c
+@COMPILE_TESTS_TRUE@trecordr_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@troute_SOURCES = troute.c
+@COMPILE_TESTS_TRUE@troute_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@tvia_SOURCES = tvia.c
+@COMPILE_TESTS_TRUE@tvia_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@tcallid_SOURCES = tcallid.c
+@COMPILE_TESTS_TRUE@tcallid_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+#torture_sdp_test_SOURCES =  torture_sdp.c
+#torture_sdp_test_LDADD = $(PARSER_LIB) $(FSM_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la $(top_builddir)/src/osip2/libosip2.la 
+
+@COMPILE_TESTS_TRUE@torture_rfc3264_SOURCES = torture_rfc3264.c
+@COMPILE_TESTS_TRUE@torture_rfc3264_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+
+@COMPILE_TESTS_TRUE@torture_test_SOURCES = torture.c
+@COMPILE_TESTS_TRUE@torture_test_LDADD = $(PARSER_LIB) $(EXTRA_LIB) $(top_builddir)/src/osipparser2/libosipparser2.la 
+mkinstalldirs = $(SHELL) $(top_srcdir)/scripts/mkinstalldirs
+CONFIG_HEADER = ../../config.h
+CONFIG_CLEAN_FILES = 
+@COMPILE_TESTS_TRUE@noinst_PROGRAMS =  torture_rfc3264$(EXEEXT) \
+@COMPILE_TESTS_TRUE@torture_test$(EXEEXT) turl$(EXEEXT) tfrom$(EXEEXT) \
+@COMPILE_TESTS_TRUE@tto$(EXEEXT) tcontact$(EXEEXT) tvia$(EXEEXT) \
+@COMPILE_TESTS_TRUE@tcallid$(EXEEXT) tcontentt$(EXEEXT) \
+@COMPILE_TESTS_TRUE@trecordr$(EXEEXT) troute$(EXEEXT) twwwa$(EXEEXT)
+PROGRAMS =  $(noinst_PROGRAMS)
+
+
+DEFS = @DEFS@ -I. -I$(srcdir) -I../..
+CPPFLAGS = @CPPFLAGS@
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@
+@COMPILE_TESTS_TRUE@torture_rfc3264_OBJECTS =  torture_rfc3264.$(OBJEXT)
+@COMPILE_TESTS_TRUE@torture_rfc3264_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+torture_rfc3264_LDFLAGS = 
+@COMPILE_TESTS_TRUE@torture_test_OBJECTS =  torture.$(OBJEXT)
+@COMPILE_TESTS_TRUE@torture_test_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+torture_test_LDFLAGS = 
+@COMPILE_TESTS_TRUE@turl_OBJECTS =  turls.$(OBJEXT)
+@COMPILE_TESTS_TRUE@turl_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+turl_LDFLAGS = 
+@COMPILE_TESTS_TRUE@tfrom_OBJECTS =  tfrom.$(OBJEXT)
+@COMPILE_TESTS_TRUE@tfrom_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+tfrom_LDFLAGS = 
+@COMPILE_TESTS_TRUE@tto_OBJECTS =  tto.$(OBJEXT)
+@COMPILE_TESTS_TRUE@tto_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+tto_LDFLAGS = 
+@COMPILE_TESTS_TRUE@tcontact_OBJECTS =  tcontact.$(OBJEXT)
+@COMPILE_TESTS_TRUE@tcontact_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+tcontact_LDFLAGS = 
+@COMPILE_TESTS_TRUE@tvia_OBJECTS =  tvia.$(OBJEXT)
+@COMPILE_TESTS_TRUE@tvia_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+tvia_LDFLAGS = 
+@COMPILE_TESTS_TRUE@tcallid_OBJECTS =  tcallid.$(OBJEXT)
+@COMPILE_TESTS_TRUE@tcallid_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+tcallid_LDFLAGS = 
+@COMPILE_TESTS_TRUE@tcontentt_OBJECTS =  tcontentt.$(OBJEXT)
+@COMPILE_TESTS_TRUE@tcontentt_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+tcontentt_LDFLAGS = 
+@COMPILE_TESTS_TRUE@trecordr_OBJECTS =  trecordr.$(OBJEXT)
+@COMPILE_TESTS_TRUE@trecordr_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+trecordr_LDFLAGS = 
+@COMPILE_TESTS_TRUE@troute_OBJECTS =  troute.$(OBJEXT)
+@COMPILE_TESTS_TRUE@troute_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+troute_LDFLAGS = 
+@COMPILE_TESTS_TRUE@twwwa_OBJECTS =  twwwa.$(OBJEXT)
+@COMPILE_TESTS_TRUE@twwwa_DEPENDENCIES =  \
+@COMPILE_TESTS_TRUE@$(top_builddir)/src/osipparser2/libosipparser2.la
+twwwa_LDFLAGS = 
+CFLAGS = @CFLAGS@
+COMPILE = $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
+LTCOMPILE = $(LIBTOOL) --mode=compile $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
+CCLD = $(CC)
+LINK = $(LIBTOOL) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(LDFLAGS) -o $@
+DIST_COMMON =  Makefile.am Makefile.in
+
+
+DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+
+TAR = tar
+GZIP_ENV = --best
+SOURCES = $(torture_rfc3264_SOURCES) $(torture_test_SOURCES) $(turl_SOURCES) $(tfrom_SOURCES) $(tto_SOURCES) $(tcontact_SOURCES) $(tvia_SOURCES) $(tcallid_SOURCES) $(tcontentt_SOURCES) $(trecordr_SOURCES) $(troute_SOURCES) $(twwwa_SOURCES)
+OBJECTS = $(torture_rfc3264_OBJECTS) $(torture_test_OBJECTS) $(turl_OBJECTS) $(tfrom_OBJECTS) $(tto_OBJECTS) $(tcontact_OBJECTS) $(tvia_OBJECTS) $(tcallid_OBJECTS) $(tcontentt_OBJECTS) $(trecordr_OBJECTS) $(troute_OBJECTS) $(twwwa_OBJECTS)
+
+all: all-redirect
+.SUFFIXES:
+.SUFFIXES: .S .c .lo .o .obj .s
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4) 
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu --include-deps src/test/Makefile
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status
+	cd $(top_builddir) \
+	  && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+
+mostlyclean-noinstPROGRAMS:
+
+clean-noinstPROGRAMS:
+	-test -z "$(noinst_PROGRAMS)" || rm -f $(noinst_PROGRAMS)
+
+distclean-noinstPROGRAMS:
+
+maintainer-clean-noinstPROGRAMS:
+
+.c.o:
+	$(COMPILE) -c $<
+
+# FIXME: We should only use cygpath when building on Windows,
+# and only if it is available.
+.c.obj:
+	$(COMPILE) -c `cygpath -w $<`
+
+.s.o:
+	$(COMPILE) -c $<
+
+.S.o:
+	$(COMPILE) -c $<
+
+mostlyclean-compile:
+	-rm -f *.o core *.core
+	-rm -f *.$(OBJEXT)
+
+clean-compile:
+
+distclean-compile:
+	-rm -f *.tab.c
+
+maintainer-clean-compile:
+
+.c.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.s.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.S.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+mostlyclean-libtool:
+	-rm -f *.lo
+
+clean-libtool:
+	-rm -rf .libs _libs
+
+distclean-libtool:
+
+maintainer-clean-libtool:
+
+torture_rfc3264$(EXEEXT): $(torture_rfc3264_OBJECTS) $(torture_rfc3264_DEPENDENCIES)
+	@rm -f torture_rfc3264$(EXEEXT)
+	$(LINK) $(torture_rfc3264_LDFLAGS) $(torture_rfc3264_OBJECTS) $(torture_rfc3264_LDADD) $(LIBS)
+
+torture_test$(EXEEXT): $(torture_test_OBJECTS) $(torture_test_DEPENDENCIES)
+	@rm -f torture_test$(EXEEXT)
+	$(LINK) $(torture_test_LDFLAGS) $(torture_test_OBJECTS) $(torture_test_LDADD) $(LIBS)
+
+turl$(EXEEXT): $(turl_OBJECTS) $(turl_DEPENDENCIES)
+	@rm -f turl$(EXEEXT)
+	$(LINK) $(turl_LDFLAGS) $(turl_OBJECTS) $(turl_LDADD) $(LIBS)
+
+tfrom$(EXEEXT): $(tfrom_OBJECTS) $(tfrom_DEPENDENCIES)
+	@rm -f tfrom$(EXEEXT)
+	$(LINK) $(tfrom_LDFLAGS) $(tfrom_OBJECTS) $(tfrom_LDADD) $(LIBS)
+
+tto$(EXEEXT): $(tto_OBJECTS) $(tto_DEPENDENCIES)
+	@rm -f tto$(EXEEXT)
+	$(LINK) $(tto_LDFLAGS) $(tto_OBJECTS) $(tto_LDADD) $(LIBS)
+
+tcontact$(EXEEXT): $(tcontact_OBJECTS) $(tcontact_DEPENDENCIES)
+	@rm -f tcontact$(EXEEXT)
+	$(LINK) $(tcontact_LDFLAGS) $(tcontact_OBJECTS) $(tcontact_LDADD) $(LIBS)
+
+tvia$(EXEEXT): $(tvia_OBJECTS) $(tvia_DEPENDENCIES)
+	@rm -f tvia$(EXEEXT)
+	$(LINK) $(tvia_LDFLAGS) $(tvia_OBJECTS) $(tvia_LDADD) $(LIBS)
+
+tcallid$(EXEEXT): $(tcallid_OBJECTS) $(tcallid_DEPENDENCIES)
+	@rm -f tcallid$(EXEEXT)
+	$(LINK) $(tcallid_LDFLAGS) $(tcallid_OBJECTS) $(tcallid_LDADD) $(LIBS)
+
+tcontentt$(EXEEXT): $(tcontentt_OBJECTS) $(tcontentt_DEPENDENCIES)
+	@rm -f tcontentt$(EXEEXT)
+	$(LINK) $(tcontentt_LDFLAGS) $(tcontentt_OBJECTS) $(tcontentt_LDADD) $(LIBS)
+
+trecordr$(EXEEXT): $(trecordr_OBJECTS) $(trecordr_DEPENDENCIES)
+	@rm -f trecordr$(EXEEXT)
+	$(LINK) $(trecordr_LDFLAGS) $(trecordr_OBJECTS) $(trecordr_LDADD) $(LIBS)
+
+troute$(EXEEXT): $(troute_OBJECTS) $(troute_DEPENDENCIES)
+	@rm -f troute$(EXEEXT)
+	$(LINK) $(troute_LDFLAGS) $(troute_OBJECTS) $(troute_LDADD) $(LIBS)
+
+twwwa$(EXEEXT): $(twwwa_OBJECTS) $(twwwa_DEPENDENCIES)
+	@rm -f twwwa$(EXEEXT)
+	$(LINK) $(twwwa_LDFLAGS) $(twwwa_OBJECTS) $(twwwa_LDADD) $(LIBS)
+
+# This directory's subdirectories are mostly independent; you can cd
+# into them and run `make' without going through this Makefile.
+# To change the values of `make' variables: instead of editing Makefiles,
+# (1) if the variable is set in `config.status', edit `config.status'
+#     (which will cause the Makefiles to be regenerated when you run `make');
+# (2) otherwise, pass the desired values on the `make' command line.
+
+@SET_MAKE@
+
+all-recursive install-data-recursive install-exec-recursive \
+installdirs-recursive install-recursive uninstall-recursive  \
+check-recursive installcheck-recursive info-recursive dvi-recursive:
+	@set fnord $(MAKEFLAGS); amf=$$2; \
+	dot_seen=no; \
+	target=`echo $@ | sed s/-recursive//`; \
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	  echo "Making $$target in $$subdir"; \
+	  if test "$$subdir" = "."; then \
+	    dot_seen=yes; \
+	    local_target="$$target-am"; \
+	  else \
+	    local_target="$$target"; \
+	  fi; \
+	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+	   || case "$$amf" in *=*) exit 1;; *k*) fail=yes;; *) exit 1;; esac; \
+	done; \
+	if test "$$dot_seen" = "no"; then \
+	  $(MAKE) $(AM_MAKEFLAGS) "$$target-am" || exit 1; \
+	fi; test -z "$$fail"
+
+mostlyclean-recursive clean-recursive distclean-recursive \
+maintainer-clean-recursive:
+	@set fnord $(MAKEFLAGS); amf=$$2; \
+	dot_seen=no; \
+	rev=''; list='$(SUBDIRS)'; for subdir in $$list; do \
+	  rev="$$subdir $$rev"; \
+	  test "$$subdir" != "." || dot_seen=yes; \
+	done; \
+	test "$$dot_seen" = "no" && rev=". $$rev"; \
+	target=`echo $@ | sed s/-recursive//`; \
+	for subdir in $$rev; do \
+	  echo "Making $$target in $$subdir"; \
+	  if test "$$subdir" = "."; then \
+	    local_target="$$target-am"; \
+	  else \
+	    local_target="$$target"; \
+	  fi; \
+	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+	   || case "$$amf" in *=*) exit 1;; *k*) fail=yes;; *) exit 1;; esac; \
+	done && test -z "$$fail"
+tags-recursive:
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	  test "$$subdir" = . || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) tags); \
+	done
+
+tags: TAGS
+
+ID: $(HEADERS) $(SOURCES) $(LISP)
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	here=`pwd` && cd $(srcdir) \
+	  && mkid -f$$here/ID $$unique $(LISP)
+
+TAGS: tags-recursive $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) $(LISP)
+	tags=; \
+	here=`pwd`; \
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+   if test "$$subdir" = .; then :; else \
+	    test -f $$subdir/TAGS && tags="$$tags -i $$here/$$subdir/TAGS"; \
+   fi; \
+	done; \
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	test -z "$(ETAGS_ARGS)$$unique$(LISP)$$tags" \
+	  || (cd $(srcdir) && etags -o $$here/TAGS $(ETAGS_ARGS) $$tags  $$unique $(LISP))
+
+mostlyclean-tags:
+
+clean-tags:
+
+distclean-tags:
+	-rm -f TAGS ID
+
+maintainer-clean-tags:
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = src/test
+
+distdir: $(DISTFILES)
+	@for file in $(DISTFILES); do \
+	  d=$(srcdir); \
+	  if test -d $$d/$$file; then \
+	    cp -pr $$d/$$file $(distdir)/$$file; \
+	  else \
+	    test -f $(distdir)/$$file \
+	    || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	    || cp -p $$d/$$file $(distdir)/$$file || :; \
+	  fi; \
+	done
+	for subdir in $(SUBDIRS); do \
+	  if test "$$subdir" = .; then :; else \
+	    test -d $(distdir)/$$subdir \
+	    || mkdir $(distdir)/$$subdir \
+	    || exit 1; \
+	    chmod 777 $(distdir)/$$subdir; \
+	    (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) top_distdir=../$(top_distdir) distdir=../$(distdir)/$$subdir distdir) \
+	      || exit 1; \
+	  fi; \
+	done
+tcallid.o: tcallid.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+tcontact.o: tcontact.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+tcontentt.o: tcontentt.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+tfrom.o: tfrom.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+torture.o: torture.c ../../include/osipparser2/osip_parser.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h \
+	../../include/osip2/internal.h
+torture_rfc3264.o: torture_rfc3264.c \
+	../../include/osipparser2/osip_rfc3264.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/sdp_message.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h
+torture_sdp.o: torture_sdp.c ../../include/osipparser2/osip_port.h \
+	../../config.h ../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/sdp_message.h \
+	../../include/osip2/osip_negotiation.h
+trecordr.o: trecordr.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+troute.o: troute.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+tto.o: tto.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+turls.o: turls.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_uri.h
+tvia.o: tvia.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+twwwa.o: twwwa.c ../../include/osip2/internal.h \
+	../../include/osipparser2/osip_port.h ../../config.h \
+	../../include/osipparser2/osip_const.h \
+	../../include/osipparser2/osip_list.h \
+	../../include/osipparser2/osip_message.h \
+	../../include/osipparser2/osip_headers.h \
+	../../include/osipparser2/osip_uri.h \
+	../../include/osipparser2/headers/osip_header.h \
+	../../include/osipparser2/headers/osip_accept.h \
+	../../include/osipparser2/headers/osip_content_type.h \
+	../../include/osipparser2/headers/osip_accept_encoding.h \
+	../../include/osipparser2/headers/osip_accept_language.h \
+	../../include/osipparser2/headers/osip_alert_info.h \
+	../../include/osipparser2/headers/osip_call_info.h \
+	../../include/osipparser2/headers/osip_allow.h \
+	../../include/osipparser2/headers/osip_content_length.h \
+	../../include/osipparser2/headers/osip_authentication_info.h \
+	../../include/osipparser2/headers/osip_authorization.h \
+	../../include/osipparser2/headers/osip_call_id.h \
+	../../include/osipparser2/headers/osip_contact.h \
+	../../include/osipparser2/headers/osip_from.h \
+	../../include/osipparser2/headers/osip_content_disposition.h \
+	../../include/osipparser2/headers/osip_content_encoding.h \
+	../../include/osipparser2/headers/osip_cseq.h \
+	../../include/osipparser2/headers/osip_error_info.h \
+	../../include/osipparser2/headers/osip_mime_version.h \
+	../../include/osipparser2/headers/osip_proxy_authenticate.h \
+	../../include/osipparser2/headers/osip_www_authenticate.h \
+	../../include/osipparser2/headers/osip_proxy_authentication_info.h \
+	../../include/osipparser2/headers/osip_proxy_authorization.h \
+	../../include/osipparser2/headers/osip_record_route.h \
+	../../include/osipparser2/headers/osip_route.h \
+	../../include/osipparser2/headers/osip_to.h \
+	../../include/osipparser2/headers/osip_via.h \
+	../../include/osipparser2/osip_body.h
+
+info-am:
+info: info-recursive
+dvi-am:
+dvi: dvi-recursive
+check-am: all-am
+check: check-recursive
+installcheck-am:
+installcheck: installcheck-recursive
+install-exec-am:
+install-exec: install-exec-recursive
+
+install-data-am:
+install-data: install-data-recursive
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+install: install-recursive
+uninstall-am:
+uninstall: uninstall-recursive
+all-am: Makefile $(PROGRAMS)
+all-redirect: all-recursive
+install-strip:
+	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+installdirs: installdirs-recursive
+installdirs-am:
+
+
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+
+maintainer-clean-generic:
+mostlyclean-am:  mostlyclean-noinstPROGRAMS mostlyclean-compile \
+		mostlyclean-libtool mostlyclean-tags \
+		mostlyclean-generic
+
+mostlyclean: mostlyclean-recursive
+
+clean-am:  clean-noinstPROGRAMS clean-compile clean-libtool clean-tags \
+		clean-generic mostlyclean-am
+
+clean: clean-recursive
+
+distclean-am:  distclean-noinstPROGRAMS distclean-compile \
+		distclean-libtool distclean-tags distclean-generic \
+		clean-am
+	-rm -f libtool
+
+distclean: distclean-recursive
+
+maintainer-clean-am:  maintainer-clean-noinstPROGRAMS \
+		maintainer-clean-compile maintainer-clean-libtool \
+		maintainer-clean-tags maintainer-clean-generic \
+		distclean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+maintainer-clean: maintainer-clean-recursive
+
+.PHONY: mostlyclean-noinstPROGRAMS distclean-noinstPROGRAMS \
+clean-noinstPROGRAMS maintainer-clean-noinstPROGRAMS \
+mostlyclean-compile distclean-compile clean-compile \
+maintainer-clean-compile mostlyclean-libtool distclean-libtool \
+clean-libtool maintainer-clean-libtool install-data-recursive \
+uninstall-data-recursive install-exec-recursive \
+uninstall-exec-recursive installdirs-recursive uninstalldirs-recursive \
+all-recursive check-recursive installcheck-recursive info-recursive \
+dvi-recursive mostlyclean-recursive distclean-recursive clean-recursive \
+maintainer-clean-recursive tags tags-recursive mostlyclean-tags \
+distclean-tags clean-tags maintainer-clean-tags distdir info-am info \
+dvi-am dvi check check-am installcheck-am installcheck install-exec-am \
+install-exec install-data-am install-data install-am install \
+uninstall-am uninstall all-redirect all-am all installdirs-am \
+installdirs mostlyclean-generic distclean-generic clean-generic \
+maintainer-clean-generic clean mostlyclean distclean maintainer-clean
+
+
+@COMPILE_TESTS_TRUE@check:
+@COMPILE_TESTS_TRUE@	@echo " *******************************"
+@COMPILE_TESTS_TRUE@	@echo " ****** starting tests! ********"
+@COMPILE_TESTS_TRUE@	@echo " *******************************"
+@COMPILE_TESTS_TRUE@	@./$(top_srcdir)/src/test/tst ./$(top_srcdir)/src/test/res -c
+@COMPILE_TESTS_TRUE@	@./$(top_srcdir)/src/test/tst_rfc3264 ./$(top_srcdir)/src/test/res/torture_sdps -v -c > ./osipsdp-chk.log 2>&1
+
+@COMPILE_TESTS_TRUE@	@echo ""
+@COMPILE_TESTS_TRUE@	@echo "In case you have a doubt, send the generated"
+@COMPILE_TESTS_TRUE@	@echo "log file with your comment to <jack@atosc.org>."
+@COMPILE_TESTS_FALSE@check:
+@COMPILE_TESTS_FALSE@	@echo " ************************************"
+@COMPILE_TESTS_FALSE@	@echo " Please use ./configure --enable-test"
+@COMPILE_TESTS_FALSE@	@echo " ************************************"
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

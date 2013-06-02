@@ -1,0 +1,3 @@
+QTDIR=/usr/lib/qt
+QTLIBPATH=/usr/lib/qt/lib/.
+QTLIB=qt-mt

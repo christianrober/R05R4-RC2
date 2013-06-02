@@ -1,0 +1,1 @@
+#define CONFIG_BLACKFIN_DPMC 1

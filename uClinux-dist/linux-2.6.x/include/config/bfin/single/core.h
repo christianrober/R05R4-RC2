@@ -1,0 +1,1 @@
+#define CONFIG_BFIN_SINGLE_CORE 1

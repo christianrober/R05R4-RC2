@@ -1,0 +1,1 @@
+#define CONFIG_PLLWAKE_ERROR 7

@@ -1,0 +1,21 @@
+#
+# pppdump Makefile for SVR4 systems
+# $Id: Makefile.svr4,v 1.2 2005/07/25 04:59:40 magicyang Exp $
+#
+
+include ../svr4/Makedefs
+
+CFLAGS= $(COPTS) -I../include/net
+OBJS = pppdump.o bsd-comp.o deflate.o zlib.o
+
+all:	pppdump
+
+pppdump: $(OBJS)
+	$(CC) -o pppdump $(OBJS)
+
+clean:
+	rm -f pppdump *~
+
+install:
+	$(INSTALL) -f $(BINDIR) pppdump
+	$(INSTALL) -m 444 -f $(MANDIR)/man8 pppdump.8

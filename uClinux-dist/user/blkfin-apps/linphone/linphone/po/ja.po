@@ -1,0 +1,984 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 山口善也 <yushiya@anet.ne.jp>, 2002.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: linphone 0.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-25 00:49+0200\n"
+"PO-Revision-Date: 2003-01-21 00:05+9000\n"
+"Last-Translator: YAMAGUCHI YOSHIYA <yushiya@anet.ne.jp>\n"
+"Language-Team: <ja@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=EUC-JP\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gnome/interface.c:32
+msgid "Address book"
+msgstr "電話帳"
+
+#: gnome/interface.c:40
+msgid "Call history"
+msgstr ""
+
+#: gnome/interface.c:41
+msgid "Shows calls"
+msgstr ""
+
+#: gnome/interface.c:55
+msgid "User manual"
+msgstr "ユーザーマニュアル"
+
+#: gnome/interface.c:67
+msgid "Go"
+msgstr ""
+
+#: gnome/interface.c:158
+msgid "linphone"
+msgstr "Linphone"
+
+#: gnome/interface.c:199
+msgid "Type here the sip address of the person you want to call."
+msgstr "電話をかけたい相手のSIPアドレスを入力して下さい。"
+
+#: gnome/interface.c:200 gnome/interface.c:1270 gnome/interface.c:2124
+#: gnome/interface.c:2146 gnome/interface.c:2286
+msgid "sip:"
+msgstr "sip:"
+
+#: gnome/interface.c:202 gnome/interface.c:2301
+msgid "Sip address:"
+msgstr "Sipアドレス:"
+
+#: gnome/interface.c:210
+#, fuzzy
+msgid "Shows the address book"
+msgstr "電話帳"
+
+#: gnome/interface.c:224
+msgid "..."
+msgstr ""
+
+#: gnome/interface.c:232 gnome/interface.c:2308
+msgid "Proxy to use:"
+msgstr ""
+
+#: gnome/interface.c:241
+#, fuzzy
+msgid ""
+"Call or\n"
+"answer"
+msgstr ""
+"電話をかける\n"
+"電話に出る"
+
+#: gnome/interface.c:246
+msgid ""
+"Hangup\n"
+"or refuse"
+msgstr ""
+
+#: gnome/interface.c:251
+msgid "Or chat !"
+msgstr ""
+
+#: gnome/interface.c:273
+msgid "Show more..."
+msgstr "詳細"
+
+#: gnome/interface.c:291
+msgid "Playback level:"
+msgstr "受話音量"
+
+#: gnome/interface.c:302
+msgid "Recording level:"
+msgstr "送話音量"
+
+#: gnome/interface.c:313
+msgid "Sound"
+msgstr "サウンド"
+
+#: gnome/interface.c:331
+msgid "Reachable"
+msgstr "在席中"
+
+#: gnome/interface.c:342
+msgid "Busy, I'll be back in "
+msgstr "今席をはずしています。"
+
+#: gnome/interface.c:351
+msgid "The other party will be informed that you'll be back in X minutes"
+msgstr "発信者は、あなたがX分後に戻ってくることが分かります。"
+
+#: gnome/interface.c:352
+msgid "5"
+msgstr "5"
+
+#: gnome/interface.c:354
+msgid "mn"
+msgstr "分"
+
+#: gnome/interface.c:359
+msgid "Away"
+msgstr "退席中"
+
+#: gnome/interface.c:365
+msgid "Do not disturb"
+msgstr "手が離せません"
+
+#: gnome/interface.c:371
+msgid "Moved temporarily"
+msgstr "すぐ戻ります"
+
+#: gnome/interface.c:377
+msgid "Alternative service"
+msgstr "他の連絡手段を使って下さい"
+
+#: gnome/interface.c:387
+msgid "URL:"
+msgstr "URL:"
+
+#: gnome/interface.c:396
+msgid "Presence"
+msgstr "状態"
+
+#: gnome/interface.c:413
+msgid "Press digits to send DTMFs."
+msgstr "DTMFを送信するための数字を押して下さい。"
+
+#: gnome/interface.c:422
+msgid ""
+"  3\n"
+"def"
+msgstr ""
+
+#: gnome/interface.c:428
+msgid ""
+"  2\n"
+"abc"
+msgstr ""
+
+#: gnome/interface.c:434
+msgid "1"
+msgstr "1"
+
+#: gnome/interface.c:440
+msgid ""
+"  4\n"
+"ghi"
+msgstr ""
+
+#: gnome/interface.c:446
+msgid ""
+" 5\n"
+"jkl"
+msgstr ""
+
+#: gnome/interface.c:452
+msgid ""
+"  6\n"
+"mno"
+msgstr ""
+
+#: gnome/interface.c:458
+msgid ""
+"   7\n"
+"pqrs"
+msgstr ""
+
+#: gnome/interface.c:464
+msgid ""
+"  8\n"
+"tuv"
+msgstr ""
+
+#: gnome/interface.c:470
+msgid ""
+"   9\n"
+"wxyz"
+msgstr ""
+
+#: gnome/interface.c:476
+msgid "*"
+msgstr "*"
+
+#: gnome/interface.c:482
+msgid "0"
+msgstr "0"
+
+#: gnome/interface.c:488
+msgid "#"
+msgstr "#"
+
+#: gnome/interface.c:494
+msgid "DTMF"
+msgstr "DTMF"
+
+#: gnome/interface.c:511
+msgid "My online friends"
+msgstr ""
+
+#: gnome/interface.c:720
+msgid ""
+"C: 2001\n"
+"Made in Old Europe"
+msgstr ""
+
+#: gnome/interface.c:721
+msgid ""
+"Linphone is a web-phone.\n"
+"It is compatible with SIP and RTP protocols."
+msgstr ""
+"Linphoneはインターネット電話です。\n"
+"SIP・RTPプロトコルと互換性があります。"
+
+#: gnome/interface.c:745
+msgid "28k modem"
+msgstr "28kのモデム"
+
+#: gnome/interface.c:752
+msgid "56k modem"
+msgstr "56kのモデム"
+
+#: gnome/interface.c:759
+msgid "64k modem (numeris)"
+msgstr "64Kのモデム(ISDN)"
+
+#: gnome/interface.c:766
+msgid "ADSL or Cable modem"
+msgstr "ADSL・CATVモデム"
+
+#: gnome/interface.c:773
+msgid "Ethernet or equivalent"
+msgstr "イーサネットなど"
+
+#: gnome/interface.c:931
+msgid "Parameters"
+msgstr "パラメーター"
+
+#: gnome/interface.c:961
+#, fuzzy
+msgid "Use IPv6 network (if available)"
+msgstr "ユーザーは、今出られません。"
+
+#: gnome/interface.c:964
+msgid ""
+"Toggle this if you are on an ipv6 network and you wish linphone to use it."
+msgstr ""
+
+#: gnome/interface.c:966
+msgid "Global"
+msgstr ""
+
+#: gnome/interface.c:981
+msgid ""
+"This option is only for users in a private network, behind a gateway. If you "
+"are not in this situation, then leave this empty."
+msgstr ""
+
+#: gnome/interface.c:1004 gnome/interface.c:1493
+msgid "Enable"
+msgstr "使用する"
+
+#: gnome/interface.c:1012
+msgid "Firewall 's external ip address (in dot notations):"
+msgstr ""
+
+#: gnome/interface.c:1023
+msgid "NAT traversal options (experimental)"
+msgstr ""
+
+#: gnome/interface.c:1052
+#, fuzzy
+msgid "Number of buffered miliseconds (jitter compensation):"
+msgstr ""
+"バッファするミリ秒\n"
+"(音声が途切れるときは大きくします)"
+
+#: gnome/interface.c:1060
+msgid "RTP port used for audio:"
+msgstr "オーディオに使用するRTPポート番号"
+
+#: gnome/interface.c:1067
+msgid "RTP properties"
+msgstr "RTPのプロパティー"
+
+#: gnome/interface.c:1085
+msgid "Use SIP INFO message instead of RTP rfc2833 for DTMF transmitting"
+msgstr ""
+
+#: gnome/interface.c:1088
+msgid "RTP-RFC2833 is the recommended way."
+msgstr ""
+
+#: gnome/interface.c:1090
+msgid "Other"
+msgstr ""
+
+#: gnome/interface.c:1095
+msgid "Network"
+msgstr "ネットワーク"
+
+#: gnome/interface.c:1121
+#, fuzzy
+msgid "Playback sound device:"
+msgstr "使用するサウンドデバイス"
+
+#: gnome/interface.c:1128
+#, fuzzy
+msgid "Ring sound:"
+msgstr "録音する音源"
+
+#: gnome/interface.c:1142
+msgid "Ring sound selection"
+msgstr ""
+
+#: gnome/interface.c:1166
+msgid "Listen"
+msgstr ""
+
+#: gnome/interface.c:1170
+msgid "Recording source:"
+msgstr "録音する音源"
+
+#: gnome/interface.c:1185 gnome/propertybox.c:665 gnome/propertybox.c:689
+msgid "micro"
+msgstr "マイク入力"
+
+#: gnome/interface.c:1186 gnome/propertybox.c:668 gnome/propertybox.c:690
+msgid "line"
+msgstr "ライン入力"
+
+#: gnome/interface.c:1195
+#, fuzzy
+msgid "Capture sound device:"
+msgstr "使用するサウンドデバイス"
+
+#: gnome/interface.c:1215
+msgid "Sound properties"
+msgstr "サウンドのプロパティー"
+
+#: gnome/interface.c:1219
+#, fuzzy
+msgid "Sound device"
+msgstr "使用するサウンドデバイス"
+
+#: gnome/interface.c:1237
+msgid "Run sip user agent on port:"
+msgstr "SIPユーザーエージェントが起動するポート"
+
+#: gnome/interface.c:1246
+msgid "It is strongly recommended to use port 5060."
+msgstr "5060番ポートを使うことを強く推奨します。"
+
+#: gnome/interface.c:1248
+msgid "SIP port"
+msgstr "SIPのポート"
+
+#: gnome/interface.c:1265
+msgid "Your sip address:"
+msgstr "あなたのSIPアドレス"
+
+#: gnome/interface.c:1279
+msgid "@"
+msgstr "@"
+
+#: gnome/interface.c:1288
+msgid "Automatically guess a valid hostname"
+msgstr ""
+
+#: gnome/interface.c:1292
+msgid "Identity"
+msgstr "個人情報"
+
+#: gnome/interface.c:1338
+#, fuzzy
+msgid "Add proxy/registrar"
+msgstr "SIPレジストラを使う"
+
+#: gnome/interface.c:1359 gnome/interface.c:1903
+msgid "Edit"
+msgstr ""
+
+#: gnome/interface.c:1380
+msgid "Remove"
+msgstr "削除する"
+
+#: gnome/interface.c:1384
+msgid "Remote services"
+msgstr "リモートのサービス"
+
+#: gnome/interface.c:1414
+msgid "Clear all stored authentication information (username,password...)"
+msgstr ""
+
+#: gnome/interface.c:1418
+#, fuzzy
+msgid "Authentication information"
+msgstr "コーデックの情報"
+
+#: gnome/interface.c:1422
+msgid "SIP"
+msgstr "SIP"
+
+#: gnome/interface.c:1445
+msgid "List of audio codecs, in order of preference:"
+msgstr "コーデックのリストです。使いたい順に並べてください。"
+
+#: gnome/interface.c:1514
+msgid "Disable"
+msgstr "使用しない"
+
+#: gnome/interface.c:1537
+msgid "Connection type:"
+msgstr "接続のタイプ"
+
+#: gnome/interface.c:1545
+msgid ""
+"Note: Codecs in red are not usable regarding to your connection type to the "
+"internet."
+msgstr "注意:赤い色のコーデックは、現在のネットワーク接続方法では使えません。"
+
+#: gnome/interface.c:1557
+#, fuzzy
+msgid "No information availlable"
+msgstr "特に情報はありません"
+
+#: gnome/interface.c:1564
+msgid "Codec information"
+msgstr "コーデックの情報"
+
+#: gnome/interface.c:1568
+#, fuzzy
+msgid "Audio codecs"
+msgstr "オーディオコーデックのプロパティー"
+
+#: gnome/interface.c:1572
+msgid "Codecs"
+msgstr "コーデック"
+
+#: gnome/interface.c:1833
+msgid "Address Book"
+msgstr "電話帳"
+
+#: gnome/interface.c:1929
+msgid "Select"
+msgstr "選択する"
+
+#: gnome/interface.c:1988
+msgid "Information"
+msgstr "情報"
+
+#: gnome/interface.c:2006
+msgid ""
+"User is not reachable at the moment but he invites you to contact him using "
+"the following alternate ressource:"
+msgstr ""
+"ユーザーに接続することができませんが、ユーザーは代わりの手段に招待していま"
+"す。他の手段で連絡をとってください。"
+
+#: gnome/interface.c:2013
+msgid "None."
+msgstr "ありません。"
+
+#: gnome/interface.c:2074 gnome/interface.c:2183
+msgid "Proxy/Registrar configuration box"
+msgstr ""
+
+#: gnome/interface.c:2104
+msgid "Route (optional):"
+msgstr ""
+
+#: gnome/interface.c:2126
+msgid "SIP Proxy:"
+msgstr ""
+
+#: gnome/interface.c:2133
+#, fuzzy
+msgid "SIP Identity:"
+msgstr "個人情報"
+
+#: gnome/interface.c:2148
+#, fuzzy
+msgid "Registration Period:"
+msgstr "登録しました。"
+
+#: gnome/interface.c:2163
+msgid "Send registration:"
+msgstr ""
+
+#: gnome/interface.c:2170
+#, fuzzy
+msgid "Publish presence information:"
+msgstr "コーデックの情報"
+
+#: gnome/interface.c:2255
+#, fuzzy
+msgid "Edit contact information"
+msgstr "(接続するための情報がありません!)"
+
+#: gnome/interface.c:2294
+#, fuzzy
+msgid "Name:"
+msgstr "名前"
+
+#: gnome/interface.c:2315
+msgid "Subscribe policy:"
+msgstr ""
+
+#: gnome/interface.c:2322
+msgid "Send subscription (see person's online status)"
+msgstr ""
+
+#: gnome/interface.c:2326
+#, fuzzy
+msgid "Contact information"
+msgstr "コーデックの情報"
+
+#: gnome/interface.c:2397
+msgid "New incoming subscription"
+msgstr ""
+
+#: gnome/interface.c:2417
+msgid "You have received a new subscription..."
+msgstr ""
+
+#: gnome/interface.c:2444
+msgid "Refuse"
+msgstr ""
+
+#: gnome/interface.c:2465
+msgid "Accept"
+msgstr ""
+
+#: gnome/interface.c:2518
+msgid "Authentication requested"
+msgstr ""
+
+#: gnome/interface.c:2544
+msgid "Authentication required for realm"
+msgstr ""
+
+#: gnome/interface.c:2580
+msgid "userid:"
+msgstr ""
+
+#: gnome/interface.c:2588
+#, fuzzy
+msgid "password:"
+msgstr "パスワード"
+
+#: gnome/interface.c:2596
+msgid "username:"
+msgstr ""
+
+#: gnome/interface.c:2604
+msgid "realm:"
+msgstr ""
+
+#: gnome/interface.c:2665
+msgid "Linphone - Call history"
+msgstr ""
+
+#: gnome/interface.c:2732
+msgid "Chat Room"
+msgstr ""
+
+#: gnome/interface.c:2760
+msgid "Text:"
+msgstr ""
+
+#: gnome/callbacks.c:566
+#, c-format
+msgid "Chat with %s"
+msgstr ""
+
+#: gnome/support.c:60 gnome/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "pixmapファイルが見つかりません %s"
+
+#: gnome/propertybox.c:136
+msgid "Index"
+msgstr ""
+
+#: gnome/propertybox.c:142 gnome/propertybox.c:522 gnome/friends.c:110
+msgid "Name"
+msgstr "名前"
+
+#: gnome/propertybox.c:147
+msgid "Address"
+msgstr "アドレス"
+
+#: gnome/propertybox.c:270
+#, fuzzy
+msgid "Server address"
+msgstr "サーバーのアドレス"
+
+#: gnome/propertybox.c:500 gnome/propertybox.c:609 gnome/propertybox.c:903
+msgid "Enabled"
+msgstr "使用する"
+
+#: gnome/propertybox.c:501 gnome/propertybox.c:904
+msgid "Disabled"
+msgstr "使用しない"
+
+#: gnome/propertybox.c:528
+msgid "Rate (Hz)"
+msgstr ""
+
+#: gnome/propertybox.c:534
+msgid "Status"
+msgstr "状態"
+
+#: gnome/propertybox.c:540
+msgid "Min bitrate (kbit/s)"
+msgstr "最低限のビットレート (kbit/s)"
+
+#: gnome/linphone.c:143
+msgid "The caller asks for resource reservation. Do you agree ?"
+msgstr ""
+
+#: gnome/linphone.c:146
+msgid ""
+"The caller doesn't use resource reservation. \t\t\t\t\tDo you wish to "
+"continue anyway ?"
+msgstr ""
+
+#: gnome/linphone.c:172
+#, c-format
+msgid "linphone - receiving call from %s"
+msgstr ""
+
+#: gnome/linphone.c:200
+#, c-format
+msgid ""
+"You have received a subscription from %s.This means that this person wishes "
+"to be notified of your presence information (online, busy, away...).\n"
+"Do you agree ?"
+msgstr ""
+
+#: gnome/linphone.c:210
+#, c-format
+msgid "Authentication required for realm %s"
+msgstr ""
+
+#: gnome/linphone.c:329
+#, fuzzy
+msgid "None"
+msgstr "ありません。"
+
+#: gnome/friends.c:117
+#, fuzzy
+msgid "Presence status"
+msgstr "状態"
+
+#: coreapi/linphonecore.c:169
+#, c-format
+msgid "You have missed %i call(s)."
+msgstr ""
+
+#: coreapi/linphonecore.c:195
+msgid "aborted"
+msgstr ""
+
+#: coreapi/linphonecore.c:198
+msgid "completed"
+msgstr ""
+
+#: coreapi/linphonecore.c:201
+msgid "missed"
+msgstr ""
+
+#: coreapi/linphonecore.c:206
+#, c-format
+msgid ""
+"%s at %sFrom: %s\n"
+"To: %s\n"
+"Status: %s\n"
+"Duration: %i mn %i sec\n"
+msgstr ""
+
+#: coreapi/linphonecore.c:207
+msgid "Incoming call"
+msgstr ""
+
+#: coreapi/linphonecore.c:207
+msgid "Outgoing call"
+msgstr ""
+
+#: coreapi/linphonecore.c:590
+msgid ""
+"Your machine appears to be connected to an IPv6 network. By default linphone "
+"always uses IPv4. Please update your configuration if you want to use IPv6"
+msgstr ""
+
+#: coreapi/linphonecore.c:768
+msgid "Ready."
+msgstr "準備完了。"
+
+#: coreapi/linphonecore.c:769
+msgid "Communication ended."
+msgstr "会話は終了しました。"
+
+#: coreapi/linphonecore.c:770
+msgid "Contacting "
+msgstr "接続中"
+
+#: coreapi/linphonecore.c:771
+msgid "is calling you."
+msgstr "から電話です。"
+
+#: coreapi/linphonecore.c:772
+msgid "Connected."
+msgstr "接続しました。"
+
+#: coreapi/linphonecore.c:773
+msgid "Call cancelled."
+msgstr "通話はキャンセルされました。"
+
+#: coreapi/linphonecore.c:1079
+msgid "Looking for telephone number destination..."
+msgstr ""
+
+#: coreapi/linphonecore.c:1081
+msgid "Could not resolve this number."
+msgstr ""
+
+#: coreapi/linphonecore.c:1125
+#, fuzzy
+msgid ""
+"Could not parse given sip address. A sip url usually looks like sip:"
+"user@domain"
+msgstr ""
+"SIPアドレスの形式エラーです。SIPアドレスは、<sip:username@domainname>のような"
+"形式です。"
+
+#: coreapi/misc.c:195
+#, fuzzy, c-format
+msgid ""
+"Linphone could not open audio device %s. Check if your sound card is fully "
+"configured and working."
+msgstr ""
+"Linphoneはオーディオデバイスをオープンできませんでした。サウンドカードの設定"
+"が完全で、正しく動いているかどうか確認して下さい。"
+
+#: coreapi/misc.c:267
+msgid ""
+"Your computer appears to be using ALSA sound drivers.\n"
+"This is the best choice. However the pcm oss emulation module\n"
+"is missing and linphone needs it. Please execute\n"
+"'modprobe snd-pcm-oss' as root to load it."
+msgstr ""
+"このコンピューターはALSAサウンドドライバーを使用しているようです。\n"
+"それは最良の選択です。しかし、Linphoneが必要とする\n"
+"pcm ossエミュレーションモジュールが見つかりません。\n"
+"ロードするために、ルート権限で'modprobe snd-pcm-oss'を実行してください。"
+
+#: coreapi/misc.c:270
+msgid ""
+"Your computer appears to be using ALSA sound drivers.\n"
+"This is the best choice. However the mixer oss emulation module\n"
+"is missing and linphone needs it. Please execute\n"
+" 'modprobe snd-mixer-oss' as root to load it."
+msgstr ""
+"このコンピューターはALSAサウンドドライバーを使用しているようです。\n"
+"それは最良の選択です。しかし、Linphoneが必要とする\n"
+"mixer ossエミュレーションモジュールが見つかりません。\n"
+"ロードするために、ルート権限で'modprobe snd-mixer-oss'を実行してください。"
+
+#: coreapi/exevents.c:104
+msgid "Could not reach destination."
+msgstr ""
+
+#: coreapi/exevents.c:112
+msgid "User is busy."
+msgstr "ユーザーはビジーです"
+
+#: coreapi/exevents.c:113
+msgid "User is temporarily unavailable."
+msgstr "ユーザーは、今出られません。"
+
+#: coreapi/exevents.c:114
+#, fuzzy
+msgid "Request Cancelled."
+msgstr "通話はキャンセルされました。"
+
+#. char *retrymsg=_("%s. Retry after %i minute(s).");
+#: coreapi/exevents.c:116
+msgid "User does not want to be disturbed."
+msgstr "ユーザーは手が離せないようです。"
+
+#: coreapi/exevents.c:117
+msgid "Call declined."
+msgstr "通話は拒否されました。"
+
+#: coreapi/exevents.c:131
+msgid "Bad request"
+msgstr ""
+
+#: coreapi/exevents.c:134
+msgid "User cannot be found at given address."
+msgstr "ユーザーが見つかりません。"
+
+#: coreapi/exevents.c:137
+msgid "Remote user cannot support any of proposed codecs."
+msgstr "相手側では、提案したコーデックを一つもサポートしていません。"
+
+#. time out, call leg is lost
+#: coreapi/exevents.c:163
+msgid "Timeout."
+msgstr "時間切れです。"
+
+#: coreapi/exevents.c:166
+msgid "Remote host was found but refused connection."
+msgstr "リモートホストが見つかりましたが、接続を拒否されました。"
+
+#: coreapi/exevents.c:348
+#, c-format
+msgid "Redirected to %s..."
+msgstr ""
+
+#: coreapi/exevents.c:359
+msgid ""
+"User is not reachable at the moment but he invites you\n"
+"to contact him using the following alternate resource:"
+msgstr ""
+"ユーザーに接続することができませんが、ユーザーは代わりの手段に招待していま"
+"す。\n"
+"他の手段で連絡をとってください。"
+
+#: coreapi/exevents.c:648
+#, fuzzy
+msgid "Registration failed (timeout)."
+msgstr "登録しました。"
+
+#: coreapi/exevents.c:657
+#, fuzzy, c-format
+msgid "Registration on %s sucessful."
+msgstr "登録しました。"
+
+#~ msgid ""
+#~ "Release or\n"
+#~ "Refuse"
+#~ msgstr ""
+#~ "電話を切る\n"
+#~ "会話を拒否"
+
+#~ msgid "%s. Retry after %i minute(s)."
+#~ msgstr "%s。%i 分後にかけ直して下さい。"
+
+#, fuzzy
+#~ msgid "Timeout..."
+#~ msgstr "時間切れです。"
+
+#~ msgid "Connection"
+#~ msgstr "コネクション"
+
+#, fuzzy
+#~ msgid ""
+#~ "Add address\n"
+#~ "book"
+#~ msgstr "電話帳"
+
+#~ msgid "Toggle this if you want to be registered on a remote server."
+#~ msgstr "リモートサーバーに登録するときは、チェックして下さい。"
+
+#~ msgid "Address of record:"
+#~ msgstr "登録するアドレス"
+
+#~ msgid "The sip address of the registrar server"
+#~ msgstr "レジストラサーバーのSIPアドレス"
+
+#~ msgid ""
+#~ "The password used for registration. On some servers it is not necessary"
+#~ msgstr "登録にパスワードを用います。必須でないサーバーもあります。"
+
+#~ msgid "Use this registrar server as outbound proxy."
+#~ msgstr "レジストラサーバーをアウトバウンドプロクシとして使用します。"
+
+#~ msgid "sip address:"
+#~ msgstr "SIPアドレス"
+
+#~ msgid "Display name:"
+#~ msgstr "表示される名前"
+
+#~ msgid "Modify"
+#~ msgstr "修正"
+
+#~ msgid "Registering..."
+#~ msgstr "登録中……"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are currently using the i810_audio driver.\n"
+#~ "This driver is buggy and so does not work with Linphone.\n"
+#~ "We suggest that you replace it by its equivalent ALSA driver,\n"
+#~ "either with packages from your distribution, or by downloading\n"
+#~ "ALSA drivers at http://www.alsa-project.org."
+#~ msgstr ""
+#~ "現在、i810オーディオドライバーを使っています。\n"
+#~ "このドライバーにはバグがあり、Linphoneではうまく動作しません。\n"
+#~ "ALSAドライバーに相当する\n"
+#~ "あなたのディストリビュージョンのパッケージか、\n"
+#~ "ALSAドライバー(http://www.alsa-project.org)への交換を推奨します。"
+
+#~ msgid "Unregistration successfull."
+#~ msgstr "登録を解除しました。"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "6"
+#~ msgstr "6"
+
+#~ msgid "7"
+#~ msgstr "7"
+
+#~ msgid "8"
+#~ msgstr "8"
+
+#~ msgid "9"
+#~ msgstr "9"
+
+#~ msgid "Select network interface to use:"
+#~ msgstr "使用するネットワークインターフェースを選んで下さい"
+
+#~ msgid "Network interface properties"
+#~ msgstr "ネットワークインターフェースのプロパティー"
+
+#~ msgid "RTP"
+#~ msgstr "RTP"
+
+#~ msgid "Audio"
+#~ msgstr "オーディオ"
+
+#~ msgid "C: 2001"
+#~ msgstr "C: 2001"
+
+#~ msgid "/dev/dsp"
+#~ msgstr "/dev/dsp"
+
+#~ msgid "/dev/dsp1"
+#~ msgstr "/dev/dsp1"
+
+#~ msgid "/dev/dsp2"
+#~ msgstr "/dev/dsp2"
+
+#~ msgid "/dev/dsp3"
+#~ msgstr "/dev/dsp3"
+
+#~ msgid "Add"
+#~ msgstr "追加する"
+
+#~ msgid "Set the selected address in linphone'main window."
+#~ msgstr "選択したアドレスがLinphoneのメインウインドウに現れます。"

@@ -1,0 +1,1 @@
+#define CONFIG_BANK_2 0x7BB0

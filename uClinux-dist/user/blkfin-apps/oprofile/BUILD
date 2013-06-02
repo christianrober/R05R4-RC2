@@ -1,0 +1,1 @@
+CFLAGS="-I$(ROOTDIR)/lib/bfd -I$(ROOTDIR)/lib/popt -Wl,-elf2flt " CXXFLAGS=" -I../../../lib/bfd -I../../../lib/popt -Wl,-elf2flt" ./configure --with-kernel-support --build=i386-pc-linux-gnu --host=bfin-uclinux

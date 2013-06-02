@@ -1,0 +1,1 @@
+#define CONFIG_MEM_ADD_WIDTH 11

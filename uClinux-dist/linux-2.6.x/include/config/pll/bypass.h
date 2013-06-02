@@ -1,0 +1,1 @@
+#undef CONFIG_PLL_BYPASS

@@ -1,0 +1,1 @@
+#define CONFIG_DMA6_UARTRX 10

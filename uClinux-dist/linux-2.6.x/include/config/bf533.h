@@ -1,0 +1,1 @@
+#define CONFIG_BF533 1

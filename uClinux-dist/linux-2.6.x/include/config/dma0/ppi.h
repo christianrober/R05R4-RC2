@@ -1,0 +1,1 @@
+#define CONFIG_DMA0_PPI 8

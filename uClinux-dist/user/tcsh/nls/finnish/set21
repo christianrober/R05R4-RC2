@@ -1,0 +1,5 @@
+$ $Id: set21,v 1.2 2005/07/25 06:42:17 magicyang Exp $
+$ tc.disc.c
+$set 21 
+1 Couldn't get local chars.\n
+2 Couldn't set local chars.\n

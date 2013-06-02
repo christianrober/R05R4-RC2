@@ -1,0 +1,1 @@
+#define CONFIG_DMA7_UARTTX 10

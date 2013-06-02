@@ -1,0 +1,1 @@
+cmd_drivers/mtd/chips/built-in.o :=  bfin-uclinux-ld   -r -o drivers/mtd/chips/built-in.o drivers/mtd/chips/chipreg.o drivers/mtd/chips/gen_probe.o drivers/mtd/chips/jedec_probe.o drivers/mtd/chips/map_ram.o drivers/mtd/chips/stm_mw320db.o

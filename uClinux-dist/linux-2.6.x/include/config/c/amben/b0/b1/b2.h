@@ -1,0 +1,1 @@
+#undef CONFIG_C_AMBEN_B0_B1_B2

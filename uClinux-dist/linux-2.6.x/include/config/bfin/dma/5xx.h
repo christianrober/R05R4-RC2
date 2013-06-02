@@ -1,0 +1,1 @@
+#define CONFIG_BFIN_DMA_5XX 1

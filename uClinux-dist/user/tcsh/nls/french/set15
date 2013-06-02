@@ -1,0 +1,7 @@
+$ $Id: set15,v 1.2 2005/07/25 06:42:17 magicyang Exp $
+$ sh.func.c
+$set 15 
+1 %s: %s: ne peut %s la limite%s\n
+2 enlever
+3 positionner
+4  matérielle

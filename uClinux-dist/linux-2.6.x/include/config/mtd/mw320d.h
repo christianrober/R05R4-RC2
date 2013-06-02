@@ -1,0 +1,1 @@
+#define CONFIG_MTD_MW320D 1

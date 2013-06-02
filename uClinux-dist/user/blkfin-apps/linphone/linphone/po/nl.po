@@ -1,0 +1,887 @@
+# translation of nl.po to Nederlands
+# Dutch translation of linphone.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the linphone package.
+# Taco Witte <tcwitte@cs.uu.nl>, 2005.
+# Hendrik-Jan Heins <hjh@passys.nl>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-08-25 00:49+0200\n"
+"PO-Revision-Date: 2005-03-11 15:40+0100\n"
+"Last-Translator: Hendrik-Jan Heins <hjh@passys.nl>\n"
+"Language-Team: Nederlands <vertaling@nl.linux.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: gnome/interface.c:32
+msgid "Address book"
+msgstr "Adresboek"
+
+#: gnome/interface.c:40
+msgid "Call history"
+msgstr "Oproepgeschiedenis"
+
+#: gnome/interface.c:41
+msgid "Shows calls"
+msgstr "Oproepen weergeven"
+
+#: gnome/interface.c:55
+msgid "User manual"
+msgstr "Handleiding"
+
+#: gnome/interface.c:67
+msgid "Go"
+msgstr "Ga"
+
+#: gnome/interface.c:158
+msgid "linphone"
+msgstr "linphone"
+
+#: gnome/interface.c:199
+msgid "Type here the sip address of the person you want to call."
+msgstr "Geef hier het SIP-adres op van de persoon die u wilt bellen."
+
+#: gnome/interface.c:200 gnome/interface.c:1270 gnome/interface.c:2124
+#: gnome/interface.c:2146 gnome/interface.c:2286
+msgid "sip:"
+msgstr "sip:"
+
+#: gnome/interface.c:202 gnome/interface.c:2301
+msgid "Sip address:"
+msgstr "SIP-adres:"
+
+#: gnome/interface.c:210
+msgid "Shows the address book"
+msgstr "Het adresboek weergeven"
+
+#: gnome/interface.c:224
+msgid "..."
+msgstr "..."
+
+#: gnome/interface.c:232 gnome/interface.c:2308
+msgid "Proxy to use:"
+msgstr "Te gebruiken proxy:"
+
+#: gnome/interface.c:241
+#, fuzzy
+msgid ""
+"Call or\n"
+"answer"
+msgstr ""
+"Oproepen of\n"
+"beantwoorden"
+
+#: gnome/interface.c:246
+msgid ""
+"Hangup\n"
+"or refuse"
+msgstr ""
+
+#: gnome/interface.c:251
+msgid "Or chat !"
+msgstr ""
+
+#: gnome/interface.c:273
+msgid "Show more..."
+msgstr "Meer weergeven..."
+
+#: gnome/interface.c:291
+msgid "Playback level:"
+msgstr "Geluidssterkte afspelen:"
+
+#: gnome/interface.c:302
+msgid "Recording level:"
+msgstr "Geluidssterkte opname:"
+
+#: gnome/interface.c:313
+msgid "Sound"
+msgstr "Geluid"
+
+#: gnome/interface.c:331
+msgid "Reachable"
+msgstr "Bereikbaar"
+
+#: gnome/interface.c:342
+msgid "Busy, I'll be back in "
+msgstr "Bezig; ik ben terug over "
+
+#: gnome/interface.c:351
+msgid "The other party will be informed that you'll be back in X minutes"
+msgstr ""
+"De andere partij zal worden geïnformeerd dat u over X minuten terug bent"
+
+#: gnome/interface.c:352
+msgid "5"
+msgstr "5"
+
+#: gnome/interface.c:354
+msgid "mn"
+msgstr "min"
+
+#: gnome/interface.c:359
+msgid "Away"
+msgstr "Afwezig"
+
+#: gnome/interface.c:365
+msgid "Do not disturb"
+msgstr "Niet storen"
+
+#: gnome/interface.c:371
+msgid "Moved temporarily"
+msgstr "Tijdelijk verplaatst"
+
+#: gnome/interface.c:377
+msgid "Alternative service"
+msgstr "Alternatieve dienst"
+
+#: gnome/interface.c:387
+msgid "URL:"
+msgstr "URL:"
+
+#: gnome/interface.c:396
+msgid "Presence"
+msgstr "Aanwezigheid"
+
+#: gnome/interface.c:413
+msgid "Press digits to send DTMFs."
+msgstr "Druk op de cijfers om DTMF's te sturen"
+
+#: gnome/interface.c:422
+msgid ""
+"  3\n"
+"def"
+msgstr ""
+"  3\n"
+"def"
+
+#: gnome/interface.c:428
+msgid ""
+"  2\n"
+"abc"
+msgstr ""
+"  2\n"
+"abc"
+
+#: gnome/interface.c:434
+msgid "1"
+msgstr "1"
+
+#: gnome/interface.c:440
+msgid ""
+"  4\n"
+"ghi"
+msgstr ""
+"  4\n"
+"ghi"
+
+#: gnome/interface.c:446
+msgid ""
+" 5\n"
+"jkl"
+msgstr ""
+" 5\n"
+"jkl"
+
+#: gnome/interface.c:452
+msgid ""
+"  6\n"
+"mno"
+msgstr ""
+"  6\n"
+"mno"
+
+#: gnome/interface.c:458
+msgid ""
+"   7\n"
+"pqrs"
+msgstr ""
+"   7\n"
+"pqrs"
+
+#: gnome/interface.c:464
+msgid ""
+"  8\n"
+"tuv"
+msgstr ""
+"  8\n"
+"tuv"
+
+#: gnome/interface.c:470
+msgid ""
+"   9\n"
+"wxyz"
+msgstr ""
+"   9\n"
+"wxyz"
+
+#: gnome/interface.c:476
+msgid "*"
+msgstr "*"
+
+#: gnome/interface.c:482
+msgid "0"
+msgstr "0"
+
+#: gnome/interface.c:488
+msgid "#"
+msgstr "#"
+
+#: gnome/interface.c:494
+msgid "DTMF"
+msgstr "DTMF"
+
+#: gnome/interface.c:511
+msgid "My online friends"
+msgstr "Mijn online vrienden"
+
+#: gnome/interface.c:720
+msgid ""
+"C: 2001\n"
+"Made in Old Europe"
+msgstr ""
+"C: 2001\n"
+"Gemaakt in oud Europa"
+
+#: gnome/interface.c:721
+msgid ""
+"Linphone is a web-phone.\n"
+"It is compatible with SIP and RTP protocols."
+msgstr ""
+"Linphone is een webtelefoon.\n"
+"Het werkt met de SIP- en RTP-protocollen."
+
+#: gnome/interface.c:745
+msgid "28k modem"
+msgstr "28k modem"
+
+#: gnome/interface.c:752
+msgid "56k modem"
+msgstr "56k modem"
+
+#: gnome/interface.c:759
+msgid "64k modem (numeris)"
+msgstr "64k modem (ISDN)"
+
+#: gnome/interface.c:766
+msgid "ADSL or Cable modem"
+msgstr "ADSL- of kabelmodem"
+
+#: gnome/interface.c:773
+msgid "Ethernet or equivalent"
+msgstr "Ethernet of vergelijkbaar"
+
+#: gnome/interface.c:931
+msgid "Parameters"
+msgstr "Parameters"
+
+#: gnome/interface.c:961
+msgid "Use IPv6 network (if available)"
+msgstr "Gebruik IPv6 netwerk (wanneer het beschikbaar is)"
+
+#: gnome/interface.c:964
+msgid ""
+"Toggle this if you are on an ipv6 network and you wish linphone to use it."
+msgstr ""
+"Wijzig dit wanneer u op een IPv6 netwerk zit en linphone daarop wilt "
+"gebruiken."
+
+#: gnome/interface.c:966
+msgid "Global"
+msgstr "Globaal"
+
+#: gnome/interface.c:981
+msgid ""
+"This option is only for users in a private network, behind a gateway. If you "
+"are not in this situation, then leave this empty."
+msgstr ""
+"Deze optie is alleen vor gebruikers in een privaat netwerk, achter een "
+"gateway: Wanneer u niet in deze situatie zit, laat dit dan leeg."
+
+#: gnome/interface.c:1004 gnome/interface.c:1493
+msgid "Enable"
+msgstr "Aan"
+
+#: gnome/interface.c:1012
+msgid "Firewall 's external ip address (in dot notations):"
+msgstr "Extern IP adres van de firewall (in  x.x.x.x notatie):"
+
+#: gnome/interface.c:1023
+msgid "NAT traversal options (experimental)"
+msgstr "NAT-doorstuur opties (experimenteel)"
+
+#: gnome/interface.c:1052
+msgid "Number of buffered miliseconds (jitter compensation):"
+msgstr "Aantal gebufferde miliseconden (jitter compensatie):"
+
+#: gnome/interface.c:1060
+msgid "RTP port used for audio:"
+msgstr "RTP-poort voor geluid:"
+
+#: gnome/interface.c:1067
+msgid "RTP properties"
+msgstr "RTP-eigenschappen"
+
+#: gnome/interface.c:1085
+msgid "Use SIP INFO message instead of RTP rfc2833 for DTMF transmitting"
+msgstr "Gebruik SIP INFO bericht in plaats van RTP rfc2833 voor DTMF berichten"
+
+#: gnome/interface.c:1088
+msgid "RTP-RFC2833 is the recommended way."
+msgstr "RTP-RFC2833 is de aanbevolen manier."
+
+#: gnome/interface.c:1090
+msgid "Other"
+msgstr "Overige"
+
+#: gnome/interface.c:1095
+msgid "Network"
+msgstr "Netwerk"
+
+#: gnome/interface.c:1121
+#, fuzzy
+msgid "Playback sound device:"
+msgstr "Geluidsapparaat gebruiken:"
+
+#: gnome/interface.c:1128
+msgid "Ring sound:"
+msgstr "Belgeluid:"
+
+#: gnome/interface.c:1142
+msgid "Ring sound selection"
+msgstr "Belgeluid keuze"
+
+#: gnome/interface.c:1166
+msgid "Listen"
+msgstr "Luisteren"
+
+#: gnome/interface.c:1170
+msgid "Recording source:"
+msgstr "Bron voor opname:"
+
+#: gnome/interface.c:1185 gnome/propertybox.c:665 gnome/propertybox.c:689
+msgid "micro"
+msgstr "microfoon"
+
+#: gnome/interface.c:1186 gnome/propertybox.c:668 gnome/propertybox.c:690
+msgid "line"
+msgstr "lijn"
+
+#: gnome/interface.c:1195
+#, fuzzy
+msgid "Capture sound device:"
+msgstr "Geluidsapparaat gebruiken:"
+
+#: gnome/interface.c:1215
+msgid "Sound properties"
+msgstr "Geluidseigenschappen"
+
+#: gnome/interface.c:1219
+msgid "Sound device"
+msgstr "Geluidsapparaat"
+
+#: gnome/interface.c:1237
+msgid "Run sip user agent on port:"
+msgstr "Start SIP gebruikerssysteem op poort:"
+
+#: gnome/interface.c:1246
+msgid "It is strongly recommended to use port 5060."
+msgstr "Het wordt sterk aangeraden om poort 5060 te gebruiken."
+
+#: gnome/interface.c:1248
+msgid "SIP port"
+msgstr "SIP-poort"
+
+#: gnome/interface.c:1265
+msgid "Your sip address:"
+msgstr "Uw SIP-adres:"
+
+#: gnome/interface.c:1279
+msgid "@"
+msgstr "@"
+
+#: gnome/interface.c:1288
+msgid "Automatically guess a valid hostname"
+msgstr "Automatisch een geldige hostnaam raden"
+
+#: gnome/interface.c:1292
+msgid "Identity"
+msgstr "Identiteit"
+
+#: gnome/interface.c:1338
+msgid "Add proxy/registrar"
+msgstr "Voeg proxy/registratieserver toe"
+
+#: gnome/interface.c:1359 gnome/interface.c:1903
+msgid "Edit"
+msgstr "Bewerken"
+
+#: gnome/interface.c:1380
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: gnome/interface.c:1384
+msgid "Remote services"
+msgstr "Externe diensten"
+
+#: gnome/interface.c:1414
+msgid "Clear all stored authentication information (username,password...)"
+msgstr ""
+"Schoon alle opgeslagen authorisatie gegevens op (gebruikersnaam, "
+"wachtwoord...)"
+
+#: gnome/interface.c:1418
+msgid "Authentication information"
+msgstr "Authorisatie gegevens"
+
+#: gnome/interface.c:1422
+msgid "SIP"
+msgstr "SIP"
+
+#: gnome/interface.c:1445
+msgid "List of audio codecs, in order of preference:"
+msgstr "Lijst met audio codecs, in volgorde van voorkeur:"
+
+#: gnome/interface.c:1514
+msgid "Disable"
+msgstr "Uit"
+
+#: gnome/interface.c:1537
+msgid "Connection type:"
+msgstr "Soort verbinding:"
+
+#: gnome/interface.c:1545
+msgid ""
+"Note: Codecs in red are not usable regarding to your connection type to the "
+"internet."
+msgstr ""
+"Opmerking: Met rood weergegeven codecs zijn niet bruikbaar vanwege het soort "
+"internetverbinding dat u heeft"
+
+#: gnome/interface.c:1557
+msgid "No information availlable"
+msgstr "Geen informatie beschikbaar"
+
+#: gnome/interface.c:1564
+msgid "Codec information"
+msgstr "Codec informatie"
+
+#: gnome/interface.c:1568
+msgid "Audio codecs"
+msgstr "Audio codecs"
+
+#: gnome/interface.c:1572
+msgid "Codecs"
+msgstr "Codecs"
+
+#: gnome/interface.c:1833
+msgid "Address Book"
+msgstr "Adresboek"
+
+#: gnome/interface.c:1929
+msgid "Select"
+msgstr "Kiezen"
+
+#: gnome/interface.c:1988
+msgid "Information"
+msgstr "Informatie"
+
+#: gnome/interface.c:2006
+msgid ""
+"User is not reachable at the moment but he invites you to contact him using "
+"the following alternate ressource:"
+msgstr ""
+"De gebruiker is op dit moment niet bereikbaar, maar hij nodigt u uit op de "
+"volgende, alternatieve, manier contact met hem op te nemen:"
+
+#: gnome/interface.c:2013
+msgid "None."
+msgstr "Geen."
+
+#: gnome/interface.c:2074 gnome/interface.c:2183
+msgid "Proxy/Registrar configuration box"
+msgstr "Proxy/registratieserver registratieveld"
+
+#: gnome/interface.c:2104
+msgid "Route (optional):"
+msgstr "Route (optioneel):"
+
+#: gnome/interface.c:2126
+msgid "SIP Proxy:"
+msgstr "SIP-proxy:"
+
+#: gnome/interface.c:2133
+msgid "SIP Identity:"
+msgstr "SIP-identiteit:"
+
+#: gnome/interface.c:2148
+msgid "Registration Period:"
+msgstr "Registratieperiode:"
+
+#: gnome/interface.c:2163
+msgid "Send registration:"
+msgstr "Verstruur registratie:"
+
+#: gnome/interface.c:2170
+msgid "Publish presence information:"
+msgstr "Toon informatie over aanwezigheid:"
+
+#: gnome/interface.c:2255
+msgid "Edit contact information"
+msgstr "Bewerk contactgegevens"
+
+#: gnome/interface.c:2294
+msgid "Name:"
+msgstr "Naam:"
+
+#: gnome/interface.c:2315
+msgid "Subscribe policy:"
+msgstr "Aanmeldbeleid:"
+
+#: gnome/interface.c:2322
+msgid "Send subscription (see person's online status)"
+msgstr "Verstruur aanmelding (bekijk de online status van een persoon)"
+
+#: gnome/interface.c:2326
+msgid "Contact information"
+msgstr "Contact informatie"
+
+#: gnome/interface.c:2397
+msgid "New incoming subscription"
+msgstr "Nieuwe inkomende aanmelding"
+
+#: gnome/interface.c:2417
+msgid "You have received a new subscription..."
+msgstr "U heeft een nieuwe aanmelding ontvangen..."
+
+#: gnome/interface.c:2444
+msgid "Refuse"
+msgstr "Weigeren"
+
+#: gnome/interface.c:2465
+msgid "Accept"
+msgstr "Accepteren"
+
+#: gnome/interface.c:2518
+msgid "Authentication requested"
+msgstr "Authorisatie gevraagd"
+
+#: gnome/interface.c:2544
+msgid "Authentication required for realm"
+msgstr "Authorisatie benodigd voor gebied"
+
+#: gnome/interface.c:2580
+msgid "userid:"
+msgstr "gebruikersID:"
+
+#: gnome/interface.c:2588
+msgid "password:"
+msgstr "wachtwoord:"
+
+#: gnome/interface.c:2596
+msgid "username:"
+msgstr "gebruikersnaam:"
+
+#: gnome/interface.c:2604
+msgid "realm:"
+msgstr "gebied:"
+
+#: gnome/interface.c:2665
+msgid "Linphone - Call history"
+msgstr "Linphone - Oproepgeschiedenis"
+
+#: gnome/interface.c:2732
+msgid "Chat Room"
+msgstr ""
+
+#: gnome/interface.c:2760
+msgid "Text:"
+msgstr ""
+
+#: gnome/callbacks.c:566
+#, c-format
+msgid "Chat with %s"
+msgstr ""
+
+#: gnome/support.c:60 gnome/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Kon pixmap bestand %s niet vinden"
+
+#: gnome/propertybox.c:136
+msgid "Index"
+msgstr "Index"
+
+#: gnome/propertybox.c:142 gnome/propertybox.c:522 gnome/friends.c:110
+msgid "Name"
+msgstr "Naam"
+
+#: gnome/propertybox.c:147
+msgid "Address"
+msgstr "Adres"
+
+#: gnome/propertybox.c:270
+#, fuzzy
+msgid "Server address"
+msgstr "SIP-adres:"
+
+#: gnome/propertybox.c:500 gnome/propertybox.c:609 gnome/propertybox.c:903
+msgid "Enabled"
+msgstr "Aan"
+
+#: gnome/propertybox.c:501 gnome/propertybox.c:904
+msgid "Disabled"
+msgstr "Uit"
+
+#: gnome/propertybox.c:528
+msgid "Rate (Hz)"
+msgstr "Frequentie (Hz)"
+
+#: gnome/propertybox.c:534
+msgid "Status"
+msgstr "Status"
+
+#: gnome/propertybox.c:540
+msgid "Min bitrate (kbit/s)"
+msgstr "Minimale bitrate (kbit/s)"
+
+#: gnome/linphone.c:143
+msgid "The caller asks for resource reservation. Do you agree ?"
+msgstr "De beller vraagt om reservering van bronnen. Gaat u accoord?"
+
+#: gnome/linphone.c:146
+msgid ""
+"The caller doesn't use resource reservation. \t\t\t\t\tDo you wish to "
+"continue anyway ?"
+msgstr ""
+"De beller gebruikt geen bron reservatie. \t\t\t\t\tWilt u toch doorgaan?"
+
+#: gnome/linphone.c:172
+#, c-format
+msgid "linphone - receiving call from %s"
+msgstr ""
+
+#: gnome/linphone.c:200
+#, c-format
+msgid ""
+"You have received a subscription from %s.This means that this person wishes "
+"to be notified of your presence information (online, busy, away...).\n"
+"Do you agree ?"
+msgstr ""
+"U heeft een aanmelding ontvangen van %s. Dit betekent dat deze persoon een "
+"melding wil ontvangen wat betreft uw status (online, bezig, weg...).\n"
+"Gaat u accoord?"
+
+#: gnome/linphone.c:210
+#, c-format
+msgid "Authentication required for realm %s"
+msgstr "Authorisatie benodigd voor gebied %s"
+
+#: gnome/linphone.c:329
+msgid "None"
+msgstr "Geen"
+
+#: gnome/friends.c:117
+msgid "Presence status"
+msgstr "Aanwezigheidsstatus"
+
+#: coreapi/linphonecore.c:169
+#, c-format
+msgid "You have missed %i call(s)."
+msgstr "U heeft %i oproep(en) gemist."
+
+#: coreapi/linphonecore.c:195
+msgid "aborted"
+msgstr "afgebroken"
+
+#: coreapi/linphonecore.c:198
+msgid "completed"
+msgstr "voltooid"
+
+#: coreapi/linphonecore.c:201
+msgid "missed"
+msgstr "gemist"
+
+#: coreapi/linphonecore.c:206
+#, c-format
+msgid ""
+"%s at %sFrom: %s\n"
+"To: %s\n"
+"Status: %s\n"
+"Duration: %i mn %i sec\n"
+msgstr ""
+"%s op %s van: %s\n"
+"Aan: %s\n"
+"Status: %s\n"
+"Tijdsduur: %i mins %i secs\n"
+
+#: coreapi/linphonecore.c:207
+msgid "Incoming call"
+msgstr "Uitgaande oproep"
+
+#: coreapi/linphonecore.c:207
+msgid "Outgoing call"
+msgstr "Binnenkomende oproep"
+
+#: coreapi/linphonecore.c:590
+msgid ""
+"Your machine appears to be connected to an IPv6 network. By default linphone "
+"always uses IPv4. Please update your configuration if you want to use IPv6"
+msgstr ""
+"Uw machine lijkt verbonden te zijn met een IPv6 netwerk. Standaard gebruikt "
+"linphone altijd IPv4. Wijzig uw configuratie wanneer u IPv6 wilt gebruiken."
+
+#: coreapi/linphonecore.c:768
+msgid "Ready."
+msgstr "Gereed."
+
+#: coreapi/linphonecore.c:769
+msgid "Communication ended."
+msgstr "Communicatie beëindigd."
+
+#: coreapi/linphonecore.c:770
+msgid "Contacting "
+msgstr "Verbinden"
+
+#: coreapi/linphonecore.c:771
+msgid "is calling you."
+msgstr "belt u."
+
+#: coreapi/linphonecore.c:772
+msgid "Connected."
+msgstr "Verbonden."
+
+#: coreapi/linphonecore.c:773
+msgid "Call cancelled."
+msgstr "Oproep geannuleerd."
+
+#: coreapi/linphonecore.c:1079
+msgid "Looking for telephone number destination..."
+msgstr "Zoekt de lokatie van het telefoonnummer..."
+
+#: coreapi/linphonecore.c:1081
+msgid "Could not resolve this number."
+msgstr "Kon dit nummer niet vinden."
+
+#: coreapi/linphonecore.c:1125
+#, fuzzy
+msgid ""
+"Could not parse given sip address. A sip url usually looks like sip:"
+"user@domain"
+msgstr ""
+"Slecht geformuleerd SIP-adres. Een SIP-adres ziet er uit als <sip:"
+"gebruikersnaam@domeinnaam>"
+
+#: coreapi/misc.c:195
+#, fuzzy, c-format
+msgid ""
+"Linphone could not open audio device %s. Check if your sound card is fully "
+"configured and working."
+msgstr ""
+"Linphone kon het geluidsapparaat niet openen. Controleer of uw geluidskaart "
+"goed is ingesteld en werkt."
+
+#: coreapi/misc.c:267
+msgid ""
+"Your computer appears to be using ALSA sound drivers.\n"
+"This is the best choice. However the pcm oss emulation module\n"
+"is missing and linphone needs it. Please execute\n"
+"'modprobe snd-pcm-oss' as root to load it."
+msgstr ""
+"Uw computer maakt schijnbaar gebruik van ALSA geluidsdrivers.\n"
+"Dit is de beste keuze. Maar de pcm oss emulatie module mist\n"
+"en linphone heeft deze nodig. Geeft u alstublieft het commando\n"
+"'modprobe snd-pcm-oss' als root om de module te laden."
+
+#: coreapi/misc.c:270
+msgid ""
+"Your computer appears to be using ALSA sound drivers.\n"
+"This is the best choice. However the mixer oss emulation module\n"
+"is missing and linphone needs it. Please execute\n"
+" 'modprobe snd-mixer-oss' as root to load it."
+msgstr ""
+"Uw computer maakt schijnbaar gebruik van ALSA geluidsdrivers.\n"
+"Dit is de beste keuze. Maar de mixer oss emulatie module mist\n"
+"en linphone heeft deze nodig. Geeft u alstublieft het commando\n"
+"'modprobe snd-mixer-oss' als root om de module te laden."
+
+#: coreapi/exevents.c:104
+msgid "Could not reach destination."
+msgstr "Kon bestemming niet bereiken."
+
+#: coreapi/exevents.c:112
+msgid "User is busy."
+msgstr "Gebruiker is bezig."
+
+#: coreapi/exevents.c:113
+msgid "User is temporarily unavailable."
+msgstr "Gebruiker is tijdelijk niet beschikbaar."
+
+#: coreapi/exevents.c:114
+msgid "Request Cancelled."
+msgstr "Verzoek geannuleerd."
+
+#. char *retrymsg=_("%s. Retry after %i minute(s).");
+#: coreapi/exevents.c:116
+msgid "User does not want to be disturbed."
+msgstr "De gebruiker wenst niet gestoord te worden."
+
+#: coreapi/exevents.c:117
+msgid "Call declined."
+msgstr "Oproep geweigerd."
+
+#: coreapi/exevents.c:131
+msgid "Bad request"
+msgstr "Slecht verzoek"
+
+#: coreapi/exevents.c:134
+msgid "User cannot be found at given address."
+msgstr "Gebruiker kan niet worden gevonden bij opgegeven adres."
+
+#: coreapi/exevents.c:137
+msgid "Remote user cannot support any of proposed codecs."
+msgstr "De externe gebruiker ondersteunt geen van de voorgestelde codecs."
+
+#. time out, call leg is lost
+#: coreapi/exevents.c:163
+msgid "Timeout."
+msgstr "Time-out."
+
+#: coreapi/exevents.c:166
+msgid "Remote host was found but refused connection."
+msgstr "Externe machine is gevonden, maar verbinding is geweigerd."
+
+#: coreapi/exevents.c:348
+#, c-format
+msgid "Redirected to %s..."
+msgstr ""
+
+#: coreapi/exevents.c:359
+msgid ""
+"User is not reachable at the moment but he invites you\n"
+"to contact him using the following alternate resource:"
+msgstr ""
+"De gebruiker is op dit moment niet bereikbaar, maar hij nodigt u uit om\n"
+"op de volgende, alternatieve, manier contact met hem op te nemen:"
+
+#: coreapi/exevents.c:648
+msgid "Registration failed (timeout)."
+msgstr "Registratie mislukt (time-out)."
+
+#: coreapi/exevents.c:657
+#, c-format
+msgid "Registration on %s sucessful."
+msgstr "Registratie op %s voltooid."
+
+#~ msgid ""
+#~ "Release or\n"
+#~ "Refuse"
+#~ msgstr ""
+#~ "Ophangen\n"
+#~ "of weigeren"
+
+#~ msgid "%s. Retry after %i minute(s)."
+#~ msgstr "%s. Opnieuw proberen na %i minu(u)t(en)."

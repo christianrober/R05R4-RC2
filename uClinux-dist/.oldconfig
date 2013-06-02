@@ -1,0 +1,5 @@
+OLD_VENDOR="AnalogDevices"
+OLD_PRODUCT="BF533-STAMP"
+OLD_LINUXDIR="linux-2.6.x"
+OLD_LIBCDIR="uClibc"
+OLD_LANGUAGE="en_US:en_GB:en"

@@ -1,0 +1,1 @@
+#define CONFIG_DMA_ERROR 7

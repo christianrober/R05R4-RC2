@@ -1,0 +1,1062 @@
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/login.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/login.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/u/w/tmp.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/securetty.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/wheel/group.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/addgroup.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/addgroup.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/shadowpasswds.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/adduser.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/deluser.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/deluser.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/shadowpasswds.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/getty.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/getty.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/syslogd.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/u/w/tmp.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/passwd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/passwd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/shadowpasswds.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/delgroup.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/delgroup.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/deluser.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/shadowpasswds.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/vlock.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/vlock.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/shadowpasswds.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/delline.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/delline.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/sulogin.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/sulogin.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/shadowpasswds.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/su.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/su.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/u/w/tmp.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/adduser.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/loginutils/adduser.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/shadowpasswds.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/addgroup.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/modutils/rmmod.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/modutils/rmmod.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/2/6/modules.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/query/module/interface.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/modutils/insmod.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/modutils/insmod.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/2/4/modules.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/2/6/modules.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/insmod/loadinkmem.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/insmod/version/checking.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/use/list.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/list/archtype.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/use/single.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/use/plt/entries.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/use/got/entries.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/use/plt/list.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/got/entry/size.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/plt/entry/size.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/check/tainted/module.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/insmod/ksymoops/symbols.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/insmod/load/map.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/insmod/load/map/full.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/modutils/modprobe.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/modutils/modprobe.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/2/6/modules.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/modutils/lsmod.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/modutils/lsmod.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/check/tainted/module.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/query/module/interface.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libpwdgrp/pwd_grp.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libpwdgrp/pwd_grp.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/shadow_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/shadow_.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/halt.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/halt.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/init.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/mesg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/mesg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/init.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/init.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/syslogd.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/init/coredumps.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/user/flatfsd/flatfsd.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/extra/quiet.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/use/inittab.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/inittab.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/initrd.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/reboot.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/reboot.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/init.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/init_shared.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/init_shared.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/initrd.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/init.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/poweroff.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/init/poweroff.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/init.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/route.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/route.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipv6.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/ip_parse_common_args.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/ip_parse_common_args.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/ll_addr.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/ll_addr.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/iplink.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/iplink.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/iproute.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/iproute.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/ipaddress.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/ipaddress.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/libnetlink.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/libnetlink.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/iptunnel.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/iptunnel.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/utils.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/libiproute/utils.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/traceroute.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/traceroute.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/traceroute/verbose.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/traceroute.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/traceroute/so/debug.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ipaddr.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ipaddr.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ipcalc.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ipcalc.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipcalc/fancy.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/arping.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/arping.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/vconfig.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/vconfig.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/wget.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/wget.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/wget/statusbar.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/wget/authentication.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/wget/ip6/literal.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ifconfig.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ifconfig.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifconfig/slip.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipv6.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifconfig/broadcast/plus.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifconfig/hw.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifconfig/memstart/ioaddr/irq.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifconfig/status.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/netstat.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/netstat.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/route.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipv6.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/telnetd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/telnetd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/login.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/telnetd/inetd.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/devpts.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/iplink.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/iplink.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/iproute.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/iproute.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ifupdown.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ifupdown.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifupdown/mapping.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifupdown/ip.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifupdown/ipx.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifupdown/ipv6.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ifupdown/ipv4.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ip.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ip.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ip/address.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ip/route.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ip/link.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ip/tunnel.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/hostname.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/hostname.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/tftp.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/tftp.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tftp/blocksize.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tftp/debug.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tftp/get.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tftp/put.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/nc.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/nc.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/nameif.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/nameif.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/inetd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/inetd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/inetd/support/biltin/echo.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/inetd/support/biltin/discard.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/inetd/support/biltin/time.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/inetd/support/biltin/daytime.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/inetd/support/biltin/chargen.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/httpd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/httpd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/lfs.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/usage/from/inetd/only.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/basic/auth.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/cgi.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/config/with/mime/types.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/encode/url/str.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/set/remote/port/to/env.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/auth/md5.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/reload/config/sighup.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/httpd/setuid.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ping.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ping.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fancy/ping.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/telnet.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/telnet.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/telnet/ttype.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/telnet/autologin.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/autowidth.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ping6.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ping6.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fancy/ping6.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fancy/ping.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/nslookup.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/nslookup.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/iptunnel.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/iptunnel.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ftpgetput.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/networking/ftpgetput.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ftpget.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ftpput.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/dpkg_deb.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/dpkg_deb.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/deb/tar/bz2.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/gunzip.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/gunzip.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/gunzip/uncompress.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/bunzip2.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/bunzip2.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/dpkg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/dpkg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/deb/tar/bz2.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/gzip.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/gzip.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/gunzip.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/unzip.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/unzip.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/rpm2cpio.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/rpm2cpio.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/rpm.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/rpm.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/tar.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/tar.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tar/create.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tar/from.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tar/gzip.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tar/compress.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tar/bzip2.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tar/long/options.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/uncompress.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/uncompress.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_tar_bz2.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_tar_bz2.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/filter_accept_all.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/filter_accept_all.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_extract_to_stdout.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_extract_to_stdout.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/init_handle.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/init_handle.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/decompress_unzip.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/decompress_unzip.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_cpio.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_cpio.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/seek_by_jump.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/seek_by_jump.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/unarchive/tape.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_ar.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_ar.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ar/long/filenames.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_tar.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_tar.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tar/gnu/extensions.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tar/oldgnu/compatability.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/header_list.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/header_list.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/seek_by_char.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/seek_by_char.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_extract_all.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_extract_all.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/filter_accept_reject_list.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/filter_accept_reject_list.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_tar_gz.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/get_header_tar_gz.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/filter_accept_list_reassign.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/filter_accept_list_reassign.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/deb/tar/bz2.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/decompress_uncompress.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/decompress_uncompress.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/check_header_gzip.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/check_header_gzip.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/archive_xread_all_eof.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/archive_xread_all_eof.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_extract_to_buffer.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_extract_to_buffer.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/header_verbose_list.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/header_verbose_list.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/open_transformer.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/open_transformer.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_align.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_align.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/archive_xread_all.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/archive_xread_all.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/find_list_entry.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/find_list_entry.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/header_skip.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/header_skip.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/filter_accept_list.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/filter_accept_list.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/unpack_ar_archive.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/unpack_ar_archive.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/decompress_bunzip2.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/decompress_bunzip2.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_skip.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/libunarchive/data_skip.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/ar.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/ar.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/cpio.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/archival/cpio.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/editors/vi.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/editors/vi.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/locale/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/optimize/cursor.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/use/signals.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/crashme.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/dot/cmd.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/yankmark.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/readonly.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/search.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/colon.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/win/resize.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/setopts.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/vi/set.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/editors/awk.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/editors/awk.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/awk/math.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/editors/sed.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/editors/sed.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/editors/patch.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/editors/patch.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/sysctl.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/sysctl.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/top.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/top.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/cpu/usage/percentage.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/use/termios.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/free.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/free.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/renice.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/renice.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/pidof.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/pidof.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/kill.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/kill.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/killall.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/ps.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/ps.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/uptime.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/procps/uptime.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/applets/busybox.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/applets/busybox.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/locale/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/installer.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/init.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/autowidth.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/applets/applets.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/applets/applets.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/usage.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/usage.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/applets.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/applets.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/applets.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/applets.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/suid.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/suid/config.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/suid/config/quiet.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/file.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/time.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/time.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/last.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/last.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/crontab.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/crontab.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/strings.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/strings.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/rx.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/rx.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/devfsd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/devfsd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/devfsd/modload.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/devfsd/verbose.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/debug.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/devfsd/fg/np.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/file.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/modules/devfs.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/makedevs.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/makedevs.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/adjtimex.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/adjtimex.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/dc.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/dc.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/crond.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/crond.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/crond/call/sendmail.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/watchdog.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/watchdog.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/hdparm.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/hdparm.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/hdparm/get/identity.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/hdparm/hdio/getset/dma.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/hdparm/hdio/unregister/hwif.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/hdparm/hdio/scan/hwif.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/hdparm/hdio/tristate/hwif.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/hdparm/hdio/drive/reset.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/mt.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/miscutils/mt.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/dmesg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/dmesg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fdisk.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fdisk.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sun/label.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sgi/label.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/aix/label.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/osf/label.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fdisk/writable.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fdisk/advanced.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/weird/partition/types.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fdisk/blksize.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/pivot_root.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/pivot_root.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/mount.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/mount.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/nfsmount.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/mount/loop.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/mtab/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fsck_minix.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fsck_minix.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/minix2.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/hwclock.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/hwclock.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/hwclock/longoptions.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/mkfs_minix.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/mkfs_minix.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/minix2.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fbset.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fbset.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fbset/fancy.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fbset/readmode.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/getopt.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/getopt.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/swaponoff.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/swaponoff.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fdflush.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fdflush.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/umount.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/umount.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/mount/force.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/mount/loop.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/mtab/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/more.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/more.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/use/termios.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/mkswap.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/mkswap.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/losetup.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/losetup.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/rdate.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/rdate.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/freeramdisk.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/freeramdisk.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/nfsmount.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/nfsmount.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/hexdump.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/hexdump.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/dump.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/dump.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fdformat.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/util-linux/fdformat.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/setkeycodes.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/setkeycodes.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/clear.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/clear.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/deallocvt.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/deallocvt.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/dumpkmap.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/dumpkmap.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/chvt.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/chvt.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/openvt.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/openvt.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/loadkmap.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/loadkmap.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/loadfont.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/loadfont.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/reset.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/console-tools/reset.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/remote.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/remote.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/logread.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/logread.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/logread/reduced/locking.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/config.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/config.c \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/remote/log.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/user/smtp/smtpclient.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/syslogd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/syslogd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/remote/log.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/user/smtp/smtpclient.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipc/syslog.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/rotate/logfile.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/local.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/local.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipc/syslog.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipc/syslog/buffer/size.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/rotate/logfile.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/email.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/email.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/logger.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/logger.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/syslogd.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/klogd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/sysklogd/klogd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/cmdedit.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/cmdedit.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/../shell/cmdedit.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/../shell/cmdedit.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/locale/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/tab/completion.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/editing.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/username/completion.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/getusername/and/homedir.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/history.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/nonprintable/inverse/put.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/savehistory.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/msh.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/msh.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/editing.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/standalone/shell.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/hush.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/hush.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/editing.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/ash.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/ash.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/job/control.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/alias.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/optimize/for/size.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/math/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/cmdcmd.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/getopts.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/mail.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/math/support/64.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/ash/random/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/locale/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/savehistory.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/editing.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/tab/completion.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/lash.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/shell/lash.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/locale/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/lash/pipe/n/redirects.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/lash/job/control.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/command/editing.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sh/extra/quiet.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/whoami.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/whoami.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/rmdir.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/rmdir.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/seq.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/seq.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/stty.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/stty.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/test.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/test.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/test/64.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/od.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/od.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/dump.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/dump.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/usleep.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/usleep.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/hostid.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/hostid.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/watch.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/watch.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cut.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cut.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/chroot.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/chroot.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/dirname.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/dirname.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cat.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cat.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/touch.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/touch.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/install.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/install.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/uniq.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/uniq.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/pwd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/pwd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/sleep.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/sleep.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fancy/sleep.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/basename.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/basename.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/uudecode.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/uudecode.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/printf.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/printf.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/rm.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/rm.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/tee.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/tee.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/tee/use/block/io.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/chmod.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/chmod.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/sort.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/sort.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/chgrp.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/chgrp.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/expr.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/expr.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/chown.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/chown.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/uuencode.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/uuencode.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cal.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cal.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/locale/support.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/true.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/true.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/dos2unix.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/dos2unix.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/tty.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/tty.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/date.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/date.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/date/isofmt.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/wc.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/wc.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/locale/support.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/ln.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/ln.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/env.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/env.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/uname.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/uname.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/mkdir.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/mkdir.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/realpath.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/realpath.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/libcoreutils/cp_mv_stat.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/libcoreutils/cp_mv_stat.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/libcoreutils/getopt_mk_fifo_nod.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/libcoreutils/getopt_mk_fifo_nod.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/libcoreutils/xgetoptfile_sort_uniq.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/libcoreutils/xgetoptfile_sort_uniq.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/mknod.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/mknod.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cmp.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cmp.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/dd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/dd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/echo.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/echo.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fancy/echo.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/tail.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/tail.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fancy/tail.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/who.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/who.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/md5_sha1_sum.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/md5_sha1_sum.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/md5/sha1/sum/check.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/md5sum.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/sha1sum.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/ls.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/ls.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ls/timestamps.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ls/sortfiles.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ls/followlinks.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/human/readable.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ls/filetypes.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ls/color.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/autowidth.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ls/recursive.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/locale/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ls/username.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/length.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/length.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/head.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/head.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/fancy/head.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/fold.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/fold.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/id.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/id.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/sync.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/sync.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/user/flatfsd/flatfsd.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/yes.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/yes.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/false.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/false.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/du.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/du.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/human/readable.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/du/defalt/blocksize/1k.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/mv.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/mv.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/df.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/df.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/human/readable.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/logname.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/logname.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cp.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/cp.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/mkfifo.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/mkfifo.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/tr.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/coreutils/tr.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/which.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/which.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/mktemp.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/mktemp.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/start_stop_daemon.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/start_stop_daemon.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/pipe_progress.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/pipe_progress.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/readlink.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/readlink.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/run_parts.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/debianutils/run_parts.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/findutils/grep.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/findutils/grep.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/grep/context.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/grep/egrep/alias.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/findutils/xargs.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/findutils/xargs.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/xargs/support/confirmation.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/xargs/support/quotes.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/xargs/support/termopt.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/xargs/support/zero/term.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/findutils/find.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/findutils/find.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/find/type.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/find/perm.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/find/mtime.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/find/xdev.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/find/newer.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/find/inum.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/login.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/login.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/human_readable.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/human_readable.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/getopt_ulflags.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/getopt_ulflags.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/syscalls.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/syscalls.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/wfopen_input.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/wfopen_input.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/read_package_field.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/read_package_field.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/perror_nomsg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/perror_nomsg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/perror_msg_and_die.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/perror_msg_and_die.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/herror_msg_and_die.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/herror_msg_and_die.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xfuncs.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xfuncs.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/remove_file.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/remove_file.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/create_icmp_socket.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/create_icmp_socket.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgethostbyname2.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgethostbyname2.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipv6.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/pwd2spwd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/pwd2spwd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/shadow_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/shadow_.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/safe_strtol.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/safe_strtol.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/mtab.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/mtab.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgetcwd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgetcwd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/fclose_nonstdin.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/fclose_nonstdin.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/find_root_device.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/find_root_device.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/devfs.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/qmodule.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/qmodule.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/get_line_from_file.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/get_line_from_file.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/create_icmp6_socket.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/create_icmp6_socket.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipv6.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/mtab_file.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/mtab_file.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/mtab/support.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/mtab/filename.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/pw_encrypt.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/pw_encrypt.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/sha1/passwords.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/herror_msg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/herror_msg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/get_terminal_width_height.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/get_terminal_width_height.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/autowidth.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/vperror_msg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/vperror_msg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getgrgid.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getgrgid.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/warn_ignoring_args.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/warn_ignoring_args.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/chomp.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/chomp.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getgrnam.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getgrnam.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgetularg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgetularg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/vherror_msg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/vherror_msg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/recursive_action.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/recursive_action.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/printf.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/printf.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xconnect.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xconnect.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xreadlink.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xreadlink.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/ask_confirmation.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/ask_confirmation.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getpwuid.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getpwuid.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/module_syscalls.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/module_syscalls.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/inode_hash.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/inode_hash.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/clean/up.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/fgets_str.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/fgets_str.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/concat_path_file.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/concat_path_file.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/fflush_stdout_and_exit.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/fflush_stdout_and_exit.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/safe_write.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/safe_write.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/messages.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/messages.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/run_shell.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/run_shell.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/interface.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/interface.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipv6.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/loop.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/loop.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/speed_table.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/speed_table.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgethostbyname.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgethostbyname.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getug.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getug.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/simplify_path.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/simplify_path.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/vdprintf.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/vdprintf.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/copyfd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/copyfd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/verror_msg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/verror_msg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/safe_strncpy.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/safe_strncpy.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/make_directory.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/make_directory.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/change_identity.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/change_identity.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/full_write.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/full_write.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/perror_msg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/perror_msg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/safe_read.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/safe_read.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/device_open.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/device_open.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/process_escape_sequence.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/process_escape_sequence.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/trim.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/trim.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/procps.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/procps.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/cpu/usage/percentage.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/parse_mode.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/parse_mode.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/vfork_daemon_rexec.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/vfork_daemon_rexec.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/find_mount_point.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/find_mount_point.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/concat_subpath_file.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/concat_subpath_file.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/setup_environment.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/setup_environment.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/default_error_retval.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/default_error_retval.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/restricted_shell.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/restricted_shell.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/perror_nomsg_and_die.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/perror_nomsg_and_die.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/parse_number.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/parse_number.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/find_pid_by_name.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/find_pid_by_name.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/selinux.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/llist_add_to.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/llist_add_to.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/unarchive.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/kernel_version.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/kernel_version.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/print_file.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/print_file.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/run_parts.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/run_parts.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/bb_asprintf.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/bb_asprintf.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgetlarg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xgetlarg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/full_read.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/full_read.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getpwnam.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/my_getpwnam.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/pwd_.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/grp_.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/inet_common.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/inet_common.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/inet_common.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/ipv6.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/wfopen.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/wfopen.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/error_msg_and_die.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/error_msg_and_die.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/hash_fd.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/hash_fd.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/sha1sum.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/md5sum.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/skip_whitespace.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/skip_whitespace.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/correct_password.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/correct_password.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/shadowpasswds.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xregcomp.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/xregcomp.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/dump.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/dump.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h) \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/dump.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/dump.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/copy_file.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/copy_file.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/busybox.h) \
+   $(wildcard /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/config/feature/preserve/hardlinks.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/isdirectory.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/isdirectory.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/last_char_is.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/last_char_is.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/error_msg.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/error_msg.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/get_console.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/get_console.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
+/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/obscure.o: /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/libbb/obscure.c \
+ /home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h $(dep_/home/bob/lp1/R05R4-RC2/uClinux-dist/user/busybox/include/libbb.h)
